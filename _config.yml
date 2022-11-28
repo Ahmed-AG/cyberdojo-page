@@ -2,8 +2,8 @@ title: CyberDojo
 #author:
 #  name: Ahmed Abugharbia
 #  email: ahmed@cyberdojo.cloud
-#description: > Welcome to CyberDojo.
-
+description: >- # this means to ignore newlines until "baseurl:"
+  Cloud Native DevSecOps
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
