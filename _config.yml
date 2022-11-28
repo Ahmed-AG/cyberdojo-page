@@ -1,9 +1,8 @@
 title: CyberDojo
 email: info@cyberdojo.cloud
-
-#author:
-#  name: Ahmed Abugharbia
-#  email: ahmed@cyberdojo.cloud
+author:
+ name: Ahmed Abugharbia
+ email: ahmed@cyberdojo.cloud
 description: >- # this means to ignore newlines until "baseurl:"
   Cloud Native DevSecOps
 show_excerpts: false # set to true to show excerpts on the homepage
