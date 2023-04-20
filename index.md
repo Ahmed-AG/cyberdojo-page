@@ -21,5 +21,12 @@ Some Cloud Security and some AI.
 - [ACE Podcast: Ahmed Abugharbia: Upskilling your Security Teammates for Cloud and DevSecOps](https://www.sans.org/podcasts/cloud-ace/ahmed-abugharbia-upskilling-your-security-teammates-for-cloud-and-devsecops-10/){:target="_blank"}
 
 ---
+
+## SANS Classes
+
+- [SEC540: Cloud Security and DevSecOps Automation](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/){:target="_blank"}
+
+---
+
 ## Contact
 Contact: ahmed@cyberdojo.cloud
