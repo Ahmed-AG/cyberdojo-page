@@ -9,7 +9,7 @@ Some Cloud Security and some AI.
 ## About
 
 Ahmed Abugharbia is a SANS instructor for SEC540: Cloud Security and DevSecOps Automation, he also works for CDW’s Managed Security Services. He manages a team of engineers that are responsible for building managed cloud security services. Ahmed is also a co-founder of Cystack consulting, which has been serving clients in the Middle East since 2010.
-[Read more.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjLqMHrzLn-AhXtkokEHSeVBawQFnoECBkQAQ&url=https%3A%2F%2Fwww.sans.org%2Fprofiles%2Fahmed-abugharbia%2F&usg=AOvVaw06WTlmpgjJVrCMV4FwK9QA){:target="_blank"}
+[Read more.](https://www.sans.org/profiles/ahmed-abugharbia/){:target="_blank"}
 
 ---
 
