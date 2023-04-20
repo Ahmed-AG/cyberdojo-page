@@ -35,7 +35,7 @@ Ahmed Abugharbia is a SANS instructor for SEC540: Cloud Security and DevSecOps A
 ---
 
 ## Contact
-- [Linkedin:](https://www.linkedin.com/in/ahmadabugharbieh/){:target="_blank"}
-- [Twitter:](https://twitter.com/aagsec){:target="_blank"}
-- email: ahmed@cyberdojo.cloud
+- [Linkedin](https://www.linkedin.com/in/ahmadabugharbieh/){:target="_blank"}
+- [Twitter](https://twitter.com/aagsec){:target="_blank"}
+- ahmed@cyberdojo.cloud
 
