@@ -2,15 +2,17 @@
 layout: default
 ---
 
-Training AI Bots to do cyber security tasks
+Some Cloud Security and some AI.
 
 ---
 
 ## Projects
 
-- [hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
-- [AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
+- [Github Repo: hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
+- [Github Repo: AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
 - [Cloudwatch-bot LIVE](cloudwatchbot-live.html)
+
+---
 
 ## Resources
 
@@ -18,9 +20,6 @@ Training AI Bots to do cyber security tasks
 - [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/profiles/ahmed-abugharbia/){:target="_blank"}
 - [ACE Podcast: Ahmed Abugharbia: Upskilling your Security Teammates for Cloud and DevSecOps | 10](https://www.sans.org/podcasts/cloud-ace/ahmed-abugharbia-upskilling-your-security-teammates-for-cloud-and-devsecops-10/){:target="_blank"}
 
-
-
-
 ---
 ## Contact
-Contact us: info@cyberdojo.cloud
+Contact: ahmed@cyberdojo.cloud
