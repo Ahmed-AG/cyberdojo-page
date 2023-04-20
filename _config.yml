@@ -1,26 +1,10 @@
-#title: CyberDojo
-email: info@cyberdojo.cloud
-description: >- # this means to ignore newlines until "baseurl:"
-  Cloud Native DevSecOps
-show_excerpts: false # set to true to show excerpts on the homepage
-
-# Minima date format
-minima:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    - { platform: github, user_url: "https://github.com/Ahmed-AG" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/ahmadabugharbieh/" }
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
- - about.md
+# Site settings
+title: Solo, a Jekyll Theme
+tag_text: Solo
+description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
 
 # Build settings
-theme: minima
-
-plugins:
-# - jekyll-feed
-# - jekyll-seo-tag
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
