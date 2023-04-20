@@ -2,13 +2,6 @@
 layout: default
 ---
 
-## About
-
-Training AI Bots to do cyber security tasks
-
----
-## Services
-
 Training AI Bots to do cyber security tasks
 
 ---
