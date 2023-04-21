@@ -7,7 +7,7 @@ layout: default
 <A href="#services">Services</A> | 
 <A href="#research-projects">Research Projects</A> | 
 <A href="#resources">Resources</A> | 
-<A href="#cloudwatch-bot-demo">Cloudwatch-bot Demo</A>
+<A href="#cloudwatch-bot-demo">Cloudwatch-bot Demo</A> | 
 <A href="#contact">Contact</A>
 </center>
 
