@@ -11,8 +11,7 @@ layout: default
 
 ## About
 
-Cyberdojo is a leading provider of cloud security services, offering top-notch managed security solutions to help organizations secure their cloud environments. With years of experience in the field, our team of experts brings a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs. At Cyberdojo, we are committed to providing outstanding service and support to our clients, helping them stay secure and compliant in an ever-changing threat landscape."
-
+Cyberdojo offers top-notch cloud security services. With years of experience in the field, our team of experts brings a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs. At Cyberdojo, we are committed to providing outstanding service and support to our clients, helping them stay secure and compliant in an ever-changing threat landscape.
 
 ---
 ## Services
@@ -27,7 +26,7 @@ Cyberdojo is a leading provider of cloud security services, offering top-notch m
 
 ---
 
-## Projects
+## Research Projects
 At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our projects:
 
 ### hackerBot
@@ -52,6 +51,6 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 ---
 
 ## Contact
-- [Linkedin](https://www.linkedin.com/in/ahmadabugharbieh/){:target="_blank"}
-- [Twitter](https://twitter.com/aagsec){:target="_blank"}
-- ahmed@cyberdojo.cloud
+[Linkedin](https://www.linkedin.com/in/ahmadabugharbieh/){:target="_blank"}
+[Twitter](https://twitter.com/aagsec){:target="_blank"}
+info@cyberdojo.cloud
