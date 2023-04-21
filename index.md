@@ -3,14 +3,13 @@ layout: default
 # tags: [tag1, tag2, tag3]
 ---
 <center>
-<A href="#about">About</A>
-<A href="#services">Services</A>
-<A href="#research-projects">Research Projects</A>
-<A href="#resources">Resources</A>
+<A href="#about">About</A> | 
+<A href="#services">Services</A> | 
+<A href="#research-projects">Research Projects</A> | 
+<A href="#resources">Resources</A> | 
 <A href="#contact">Contact</A>
-[contact](#contact)
 </center>
-[contact](#contact)
+
 ---
 
 ## <a id="about"></a>About
