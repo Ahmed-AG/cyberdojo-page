@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
+<center>
+[About](/)
+[Services](/)
+[Projects](https://github.com/Ahmed-AG/){:target="_blank"}
 
-About Projects Resources{:align="center"}
-<center>Some Cloud Security and some AI.</center>
-
+</center>
 ---
 
 ## About
