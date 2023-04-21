@@ -47,6 +47,7 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 - [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
 - [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications/){:target="_blank"}
 - [ACE Podcast: Ahmed Abugharbia: Upskilling your Security Teammates for Cloud and DevSecOps](https://www.sans.org/podcasts/cloud-ace/ahmed-abugharbia-upskilling-your-security-teammates-for-cloud-and-devsecops-10/){:target="_blank"}
+- [بودكاست سكيوريتي بالعربي - الحلقة العاشره مع أحمد أبو غربيه AI & Cybersecurity ](https://open.spotify.com/show/4SEZywCqLqOInZtVy2kqHY)
 
 ---
 
