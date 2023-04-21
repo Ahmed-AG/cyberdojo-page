@@ -3,21 +3,22 @@ layout: default
 # tags: [tag1, tag2, tag3]
 ---
 <center>
-<A href="#About">About</A>
-<A href="#Projects">Projects</A>
-<A href="#Resources">Resources</A>
-<A href="#SANS Classes">SANS Classes</A>
-Tag1](#tag1)
-</center>
+<A href="#about">About</A>
+<A href="#services">Services</A>
+<A href="#research-projects">Research Projects</A>
+<A href="#resources">Resources</A>
+<A href="#contact">Contact</A>
 [Tag1](#tag1)
+</center>
+[contact](#contact)
 ---
 
-##  <a id="tag1"></a>About
+## <a id="about"></a>About
 
 Cyberdojo offers top-notch cloud security services. With years of experience in the field, our team of experts brings a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs. At Cyberdojo, we are committed to providing outstanding service and support to our clients, helping them stay secure and compliant in an ever-changing threat landscape.
 
 ---
-## Services
+## <a id="services"></a>Services
 
 - Cloud security assessments and audits
 - Security architecture design and review
@@ -29,7 +30,7 @@ Cyberdojo offers top-notch cloud security services. With years of experience in 
 
 ---
 
-## Research Projects
+## <a id="research-projects"></a>Research Projects
 At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our on going projects:
 
 ### hackerBot
@@ -45,7 +46,7 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 
 ---
 
-## Resources
+## <a id="resources"></a>Resources
 
 - [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
 - [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications/){:target="_blank"}
@@ -54,7 +55,7 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 
 ---
 
-## Contact
+## <a id="contact"></a>Contact
 [Linkedin](https://www.linkedin.com/in/ahmadabugharbieh/){:target="_blank"}
 [Twitter](https://twitter.com/aagsec){:target="_blank"}
 info@cyberdojo.cloud
