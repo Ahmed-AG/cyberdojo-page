@@ -9,7 +9,7 @@ layout: default
 </center>
 ---
 
-## About
+## About ##
 
 Ahmed Abugharbia is a SANS instructor for SEC540: Cloud Security and DevSecOps Automation, he also works for CDW’s Managed Security Services. He manages a team of engineers that are responsible for building managed cloud security services
 [Read more.](https://www.sans.org/profiles/ahmed-abugharbia/){:target="_blank"}
