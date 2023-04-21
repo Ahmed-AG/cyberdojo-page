@@ -1,17 +1,18 @@
 ---
 layout: default
-tags: [tag1, tag2, tag3]
+# tags: [tag1, tag2, tag3]
 ---
 <center>
 <A href="#About">About</A>
 <A href="#Projects">Projects</A>
 <A href="#Resources">Resources</A>
 <A href="#SANS Classes">SANS Classes</A>
-<A href="#tag1">Tag1</A>
+Tag1](#tag1)
 </center>
+[Tag1](#tag1)
 ---
 
-## About `tag1`
+##  <a id="tag1"></a>About
 
 Cyberdojo offers top-notch cloud security services. With years of experience in the field, our team of experts brings a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs. At Cyberdojo, we are committed to providing outstanding service and support to our clients, helping them stay secure and compliant in an ever-changing threat landscape.
 
