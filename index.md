@@ -32,13 +32,13 @@ At Cyberdojo, we are committed to pushing the boundaries of technological innova
 ### hackerBot
 hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
 
-- <i class="fab fa-github"></i> [hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
+<i class="fab fa-github"></i> [hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
 
 ### Cloudwatch-bot
 Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be utilized to interface with security solutions. The project has a user interface that is built using HTML and JavaScript and is hosted on a public S3 bucket. The UI communicates with a backend system that includes an API Gateway and a Lambda function, which is written in Python and has permission to access OpenAI and CloudWatch. When a user makes a request, the API Gateway triggers the Lambda function, which translates the request using OpenAI into a CloudWatch query that searches for relevant information in CloudWatch logs.
 
 - <a id="cloudwatch-bot-demo"></a>[Cloudwatch-bot demo LIVE](cloudwatchbot-live.html){:target="_blank"}
-- [Github Repo: AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
+<i class="fab fa-github"></i> [AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
 
 ---
 
