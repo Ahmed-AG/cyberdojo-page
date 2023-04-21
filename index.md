@@ -2,7 +2,7 @@
 layout: default
 ---
 
-About Projects Resources{:style="text-align: center"}
+About Projects Resources{:align="center"}
 <center>Some Cloud Security and some AI.</center>
 
 ---
