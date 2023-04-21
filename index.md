@@ -1,6 +1,5 @@
 ---
 layout: default
-# tags: [tag1, tag2, tag3]
 ---
 <center>
 <A href="#services">Services</A> | 
