@@ -54,6 +54,6 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 ## <a id="contact"></a>Contact
 <center>
 <A href="https://www.linkedin.com/in/ahmadabugharbieh/" target="_blank">LinkedIn</A> | 
-<A href="https://twitter.com/aagsec" target="_blank">Twitter</A> | 
-info@cyberdojo.cloud
+<A href="https://twitter.com/aagsec" target="_blank">Twitter</A>
+<br> info@cyberdojo.cloud
 </center>
