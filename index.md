@@ -3,7 +3,7 @@ layout: default
 ---
 
 About Projects Resources{:style="text-align: center"}
-Some Cloud Security and some AI.
+<center>Some Cloud Security and some AI.</center>
 
 ---
 
