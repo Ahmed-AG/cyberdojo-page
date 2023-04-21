@@ -8,7 +8,7 @@ layout: default
 <A href="#research-projects">Research Projects</A>
 <A href="#resources">Resources</A>
 <A href="#contact">Contact</A>
-[Tag1](#tag1)
+[contact](#contact)
 </center>
 [contact](#contact)
 ---
