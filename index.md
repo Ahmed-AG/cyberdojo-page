@@ -2,7 +2,7 @@
 layout: default
 ---
 <center>
-<A href="#services">Services</A> | 
+<!-- <A href="#services">Services</A> |  -->
 <A href="#research-projects">Research Projects</A> | 
 <A href="#resources">Resources</A> | 
 <A href="#cloudwatch-bot-demo">Cloudwatch-AI Demo</A> | 
