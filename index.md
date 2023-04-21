@@ -11,7 +11,7 @@ layout: default
 
 ---
 
-Cyberdojo offers top-notch cloud security services. With years of experience in the field, we bring a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs.
+<!-- Cyberdojo offers top-notch cloud security services. With years of experience in the field, we bring a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs.
 
 ---
 ## <a id="services"></a>Services
@@ -24,7 +24,7 @@ Cyberdojo offers top-notch cloud security services. With years of experience in 
 - DevSecOps automation and tooling
 - Cloud-native security monitoring and analytics
 
----
+--- -->
 
 ## <a id="research-projects"></a>Research Projects
 At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our on going projects:
