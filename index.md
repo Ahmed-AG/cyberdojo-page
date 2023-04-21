@@ -11,7 +11,7 @@ layout: default
 
 ---
 
-Cyberdojo offers top-notch cloud security services. With years of experience in the field, our team of experts brings a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs.
+Cyberdojo offers top-notch cloud security services. With years of experience in the field, we bring a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs.
 
 ---
 ## <a id="services"></a>Services
