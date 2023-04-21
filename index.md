@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-<center>
 [About](/)
 [Services](/)
+<center>
 [Projects](https://github.com/Ahmed-AG/){:target="_blank"}
-
 </center>
 ---
 
