@@ -27,7 +27,7 @@ Cyberdojo offers top-notch cloud security services. With years of experience in 
 ---
 
 ## Research Projects
-At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our projects:
+At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our on going projects:
 
 ### hackerBot
 hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
