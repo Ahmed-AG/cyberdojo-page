@@ -3,7 +3,7 @@ layout: default
 ---
 <center>
 <!-- <A href="#services">Services</A> |  -->
-<A href="#research-projects">Research Projects</A> | 
+<A href="#research-projects">Projects</A> | 
 <A href="#resources">Resources</A> | 
 <A href="cloudwatchbot-live.html">Cloudwatch-AI Demo</A> | 
 <A href="#contact">Contact</A>
@@ -26,7 +26,7 @@ layout: default
 
 --- -->
 
-## <a id="research-projects"></a>Research Projects
+## <a id="research-projects"></a>Projects
 At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our on going projects:
 
 ### hackerBot
