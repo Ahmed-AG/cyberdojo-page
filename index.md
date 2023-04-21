@@ -2,6 +2,7 @@
 layout: default
 ---
 
+About Projects Resources {: style="color:gray; font-size: 80%; text-align: center;"}
 Some Cloud Security and some AI.
 
 ---
