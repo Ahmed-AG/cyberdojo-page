@@ -5,6 +5,7 @@ layout: default
 [Services](/)
 <center>
 [Projects](https://github.com/Ahmed-AG/){:target="_blank"}
+<A href="#About">About</A>
 </center>
 ---
 
