@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-[About](/)
-[Services](/)
 <center>
-[Projects](https://github.com/Ahmed-AG/){:target="_blank"}
 <A href="#About">About</A>
+<A href="#Projects">Projects</A>
+<A href="#Resources">Resources</A>
+<A href="#SANS Classes">SANS Classes</A>
 </center>
 ---
 
@@ -14,6 +14,8 @@ layout: default
 Ahmed Abugharbia is a SANS instructor for SEC540: Cloud Security and DevSecOps Automation, he also works for CDW’s Managed Security Services. He manages a team of engineers that are responsible for building managed cloud security services
 [Read more.](https://www.sans.org/profiles/ahmed-abugharbia/){:target="_blank"}
 
+---
+## Services ##
 ---
 
 ## Projects
