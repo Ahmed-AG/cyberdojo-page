@@ -7,6 +7,7 @@ layout: default
 <A href="#services">Services</A> | 
 <A href="#research-projects">Research Projects</A> | 
 <A href="#resources">Resources</A> | 
+<A href="#cloudwatch-bot-demo">Cloudwatch-bot Demo</A>
 <A href="#contact">Contact</A>
 </center>
 
@@ -40,7 +41,7 @@ hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed 
 ### Cloudwatch-bot
 Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be utilized to interface with security solutions. The project has a user interface that is built using HTML and JavaScript and is hosted on a public S3 bucket. The UI communicates with a backend system that includes an API Gateway and a Lambda function, which is written in Python and has permission to access OpenAI and CloudWatch. When a user makes a request, the API Gateway triggers the Lambda function, which translates the request using OpenAI into a CloudWatch query that searches for relevant information in CloudWatch logs. 
 
-- [Cloudwatch-bot demo LIVE](cloudwatchbot-live.html){:target="_blank"}
+- <a id="cloudwatch-bot-demo"></a>[Cloudwatch-bot demo LIVE](cloudwatchbot-live.html){:target="_blank"}
 - [Github Repo: AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
 
 ---
