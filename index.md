@@ -9,20 +9,36 @@ layout: default
 </center>
 ---
 
-## About ##
+## About
 
-Ahmed Abugharbia is a SANS instructor for SEC540: Cloud Security and DevSecOps Automation, he also works for CDW’s Managed Security Services. He manages a team of engineers that are responsible for building managed cloud security services
-[Read more.](https://www.sans.org/profiles/ahmed-abugharbia/){:target="_blank"}
+"Cyberdojo is a leading provider of cloud security services, offering top-notch managed security solutions to help organizations secure their cloud environments. With years of experience in the field, our team of experts brings a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs. At Cyberdojo, we are committed to providing outstanding service and support to our clients, helping them stay secure and compliant in an ever-changing threat landscape."
+
 
 ---
-## Services ##
+## Services
+
+- Cloud security assessments and audits
+- Security architecture design and review
+- Cloud workload protection and configuration management
+- Identity and access management (IAM) for cloud environments
+- Incident response and breach management
+- DevSecOps automation and tooling
+- Cloud-native security monitoring and analytics
 ---
 
 ## Projects
+At Cyberdojo, we are committed to pushing the boundaries of technological innovation in the areas of cloud and AI. We love exploring new ways to leverage these cutting-edge technologies to deliver the most advanced solutions possible to our clients. Here are some of our projects:
+
+# hackerBot
+hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
 
 - [Github Repo: hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
+  
+# Cloudwatch-bot
+Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be utilized to interface with security solutions. The project has a user interface that is built using HTML and JavaScript and is hosted on a public S3 bucket. The UI communicates with a backend system that includes an API Gateway and a Lambda function, which is written in Python and has permission to access OpenAI and CloudWatch. When a user makes a request, the API Gateway triggers the Lambda function, which translates the request using OpenAI into a CloudWatch query that searches for relevant information in CloudWatch logs. 
+
+- [Cloudwatch-bot demo LIVE](cloudwatchbot-live.html){:target="_blank"}
 - [Github Repo: AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
-- [Cloudwatch-bot LIVE](cloudwatchbot-live.html)
 
 ---
 
