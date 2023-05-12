@@ -41,6 +41,11 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 
 ---
 
+## <a id="read"></a>Reading Room
+- [Using jq with AWS](/read/2022-07-23-jq-for-AWS.md)
+
+---
+
 ## <a id="resources"></a>Resources
 
 - [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
