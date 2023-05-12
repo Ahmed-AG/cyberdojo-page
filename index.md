@@ -32,7 +32,7 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 ---
 
 ## <a id="read"></a>Reading Room
-- [Using jq with AWS](/read/2022-07-23-jq-for-AWS.md)
+- [Using jq with AWS](/read/jq-for-AWS.md)
 
 ---
 
