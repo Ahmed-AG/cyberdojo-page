@@ -2,21 +2,6 @@
 layout: default
 ---
 
-<!-- Cyberdojo offers top-notch cloud security services. With years of experience in the field, we bring a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs.
-
----
-## <a id="services"></a>Services
-
-- Cloud security assessments and audits
-- Security architecture design and review
-- Cloud workload protection and configuration management
-- Identity and access management (IAM) for cloud environments
-- Incident response and breach management
-- DevSecOps automation and tooling
-- Cloud-native security monitoring and analytics
-
---- -->
-
 ## <a id="research-projects"></a>Projects
 
 ### hackerBot
