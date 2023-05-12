@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<center>
+<!-- <center>
 <!-- <A href="#services">Services</A> |  -->
 <A href="#research-projects">Projects</A> | 
 <A href="#resources">Resources</A> | 
 <A href="demo.html" target="_blank">Cloudwatch-AI LIVE Demo</A> | 
 <A href="#contact">Contact</A>
-</center>
+</center> -->
 
----
+<!-- --- -->
 
 <!-- Cyberdojo offers top-notch cloud security services. With years of experience in the field, we bring a wealth of knowledge and expertise to the table, ensuring our clients' assets are protected from threats and risks. We leverage the latest technologies and methodologies to deliver comprehensive and effective security solutions tailored to our clients' unique needs.
 
