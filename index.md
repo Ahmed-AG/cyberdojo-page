@@ -18,6 +18,7 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 
 ## <a id="read"></a>Reading Room
 - [Using jq with AWS](/read/jq-for-AWS.md)
+- [Installing Cloud Deployment Framework](/read/cloud-deployment-framework.md)
 
 ---
 
