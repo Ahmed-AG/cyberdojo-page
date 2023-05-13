@@ -9,7 +9,7 @@ author_link: "https://twitter.com/aagsec"
 ## Introduction
 Cloud Deployment Framework (CDF) automatically builds secure deployment piplines using AWS CodePipeline and CodeBuild.
 
-<i class="fab fa-github"></i> [Cloud Deployment Framework](https://github.com/Ahmed-AG/cdf){:target="_blank"}
+<i class="fab fa-github"></i> [Cloud Deployment Framework (CDF)](https://github.com/Ahmed-AG/cdf){:target="_blank"}
 
 
 ## Requirements
