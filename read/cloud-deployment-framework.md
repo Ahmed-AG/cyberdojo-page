@@ -13,7 +13,7 @@ Cloud Deployment Framework (CDF) automatically builds secure deployment piplines
 You will need the following on your local machine:
 1. Python3
 2. awscli
-3. cdk: run the Bootstrapping process four at https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html
+3. cdk: run the Bootstrapping process four at [https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html](https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html)
 ```bash
 cdk bootstrap aws://ACCOUNT-NUMBER-1/REGION-1
 ```
