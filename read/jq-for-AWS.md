@@ -7,7 +7,7 @@ author_link: "https://twitter.com/aagsec"
 ---
 
 ## Introduction
- `jq` ([https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)) is an open-source tool designed to parse, filter, display, and transform the contents of JSON input. While working with `awscli`, we often need to manipulate the json output, filtering for fields, or searching for values. This post is a collection of `jq` commands that I use repeatedly with awscli. 
+ `jq` ([https://stedolan.github.io/jq/](https://stedolan.github.io/jq/){:target="_blank"}) is an open-source tool designed to parse, filter, display, and transform the contents of JSON input. While working with `awscli`, we often need to manipulate the json output, filtering for fields, or searching for values. This post is a collection of `jq` commands that I use repeatedly with awscli. 
 
 ## jq Commands
 
