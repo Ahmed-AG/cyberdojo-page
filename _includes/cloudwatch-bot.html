@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <head>
   <title>Cloudwatch AI Bot</title>
-  <link rel="shortcut icon" href="static/aws-openai.png" />
-  <link rel="stylesheet" href="static/main.css" />
+  <link rel="shortcut icon" href="/static/aws-openai.png" />
+  <link rel="stylesheet" href="/static/main.css" />
 </head>
 
 <body>
-  <div class="topnav">
+  <!-- <div class="topnav">
     <input class="subscribe" id="subscribe" type="submit" value="Subscribe for updates" />
     <input class="subscribe" id=email type="text" name="email" placeholder="my@email.com" onkeypress="subscribe_keypress(event)" />
 
   </div>
 
-  <br>
+  <br> -->
   
   <div class="main-div">
-    <img src="static/aws-openai.png"  width="90" height="60">
     <h3>This is a SIEM. Try to find the hacker!</h3>
     <input class="human_request" id=human_request type="text" name="human_request" placeholder="Ask me in human language: What services did admin access?" onkeypress="human_request_keypress(event)" required />
     <input type="submit" id="go" value="Go" />
