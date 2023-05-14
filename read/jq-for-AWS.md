@@ -7,8 +7,7 @@ author_link: "https://twitter.com/aagsec"
 ---
 
 ## Introduction
-While working with `awscli`, I often find myself needing to manipulate the json output. filtering for fields or searching for values. This post is a collection of `jq` commands that I either written or came across, and then found myself needing them repeatedly. 
-There is always a better way to do things in cli. If you happen to have one, please shoot an email to `ahmed@cyberdojo.cloud`. Feedback is always welcome.
+ `jq` is an open-source tool designed to parse, filter, display, and transform the contents of JSON input. While working with `awscli`, we often need to manipulate the json output, filtering for fields, or searching for values. This post is a collection of `jq` commands that I use repeatedly with awscli. 
 
 ## jq Commands
 
