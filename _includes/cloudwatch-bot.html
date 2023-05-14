@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+  <title>Cloudwatch AI Bot</title>
+  <link rel="shortcut icon" href="static/aws-openai.png" />
+  <link rel="stylesheet" href="static/main.css" />
+</head>
+
+<body>
+  <div class="topnav">
+    <input class="subscribe" id="subscribe" type="submit" value="Subscribe for updates" />
+    <input class="subscribe" id=email type="text" name="email" placeholder="my@email.com" onkeypress="subscribe_keypress(event)" />
+
+  </div>
+
+  <br>
+  
+  <div class="main-div">
+    <img src="static/aws-openai.png"  width="90" height="60">
+    <h3>This is a SIEM. Try to find the hacker!</h3>
+    <input class="human_request" id=human_request type="text" name="human_request" placeholder="Ask me in human language: What services did admin access?" onkeypress="human_request_keypress(event)" required />
+    <input type="submit" id="go" value="Go" />
+    <br>
+  </div>
+  <br>
+  <div>Logs are pulled from a demo AWS account. </div>
+  
+
+<br>
+  <div id="result" class="result"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+  <script>
+    var dashboad_cfn;
+
+    function download_cfn() {
+      console.log(dashboad_cfn)
+      var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dashboad_cfn));
+      var downloadAnchorNode = document.createElement('a');
+      downloadAnchorNode.setAttribute("href", dataStr);
+      downloadAnchorNode.setAttribute("download", "dashboad_cfn.json");
+      document.body.appendChild(downloadAnchorNode); 
+      downloadAnchorNode.click();
+      downloadAnchorNode.remove();
+    }
+    function local_settings() {
+
+      let region_element = document.getElementById('region');
+      let dashboard_name_element = document.getElementById('dashboard_name');
+      let view_element = document.getElementById('view');
+      let log_sources_element = document.getElementById('log_sources');
+      
+      if ( $('#submit-dashboard-settings').val() == "Dashboard Settings" ) {
+        $('#submit-dashboard-settings').val("Set Dashboard Settings");
+
+        document.getElementById('region').style.visibility='visible';
+        document.getElementById('view').style.visibility='visible';
+        document.getElementById('log_sources').style.visibility='visible';
+        document.getElementById('dashboard_name').style.visibility='visible';
+      }
+
+      else if ( $('#submit-dashboard-settings').val() == "Set Dashboard Settings" ) {
+        $('#submit-dashboard-settings').val("Dashboard Settings");
+        document.getElementById('region').style.visibility='hidden';
+        document.getElementById('view').style.visibility='hidden';
+        document.getElementById('log_sources').style.visibility='hidden';
+        document.getElementById('dashboard_name').style.visibility='hidden';
+
+      }
+    }
+
+    function subscribe_keypress(event) {
+      if (event.key == "Enter") {
+        subscribe();
+      }
+    }
+    function subscribe() {
+      email = $('#email').val();
+      if (email) {
+        $('#subscribe').val("Thank you!");
+        // $('#subscribe').val("Subscribed");
+        $.ajax({
+            type: 'GET',
+            url: 'https://kbxi90afsh.execute-api.us-east-1.amazonaws.com/test/subscribe/?email=' + email,
+            success: function () {
+              $('#subscribe').val("Subscribed");
+            },
+            300: function(){
+              $('#subscribe').val("Error: try again");
+              console.log("error 300");
+            }
+        });
+      }
+    }
+    function human_request_keypress(event) {
+      if (event.key == "Enter") {
+        search();
+      }
+    }
+    function search() {
+      human_request = $('#human_request').val();
+      
+      view = $('#view').val();
+      log_sources = $('#log_sources').val();
+      region = $('#region').val();
+      dashboard_name = $('#dashboard_name').val();
+      
+      if (human_request) {
+        $('#go').val("Looking into it.. Hold on!");
+        $.ajax({
+            type: 'GET',
+            url: 'https://kbxi90afsh.execute-api.us-east-1.amazonaws.com/test/?human_request=' + human_request +'&view=' + view +'&log_sources=' + log_sources + '&region=' + region +'&dashboard_name=' + dashboard_name,
+            success: function (data) {
+              $('#go').val("Go");
+              let result = data['result'];
+              let query = data['query'];
+              dashboad_cfn = data['dashboad_cfn'];
+
+              let div = document.getElementById('result');
+              let table = document.getElementById('result-table');
+              div.innerHTML = "";
+              human_request_p = document.createElement("p");
+              human_request_p.innerHTML += "Human Request: <b>" + human_request + "</b>";
+              div.appendChild(human_request_p);
+              query_p = document.createElement("p");
+              query_p.innerHTML += "OpenAI generated Query: <b>" + query + "</b>";
+              div.appendChild(query_p);
+              div.innerHTML += result;
+            }
+            // TODO: Add APi failure handling 
+          });
+      }
+    }
+    $(document).ready(function () {
+      let human_request = $('#human_request').val();
+      $('#go').click(function () {
+        search()
+      });
+      $('#subscribe').click(function () {
+        subscribe()
+      });
+      $('#submit-dashboard-settings').click(function () {
+        local_settings()
+      });
+      $('#download-cfn').click(function () {
+        download_cfn()
+      });
+    });
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-55MTR46EPM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-55MTR46EPM');
+  </script>
+</body>
