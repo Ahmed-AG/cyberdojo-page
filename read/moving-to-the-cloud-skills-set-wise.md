@@ -44,6 +44,13 @@ To get started, you can refer to these resources:
 
 
 ## To be continued..
+- Devops concepts
+- Infrastrucure as code
+- Scripting
+- Configuration Management
+- Containers
+- Container Orchestration
+  
 <!--  
 ## Devops concepts
 
