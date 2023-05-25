@@ -7,7 +7,7 @@ author_link: "https://twitter.com/aagsec"
 ---
 
 ## Introduction
-Securing public clouds is not fundamentally different from securing traditional networks at a high level. The same principles still apply. However, there are significant technical differences that need to be considered. One of the key distinctions is the required skill set for effectively securing public clouds like AWS, Azure, and GCP.
+Securing public clouds is not fundamentally different from securing traditional networks at a high level. The same principles still apply. However, there are significant technical differences that need to be considered. One of the key distinctions is the required skills set for effectively securing public clouds like `AWS`, `Azure`, and `GCP`.
 
 A major challenge in cloud security is the paradigm of building and maintaining everything through code. This poses a significant hurdle for many cybersecurity professionals who may not have extensive experience with coding in their day-to-day work. In the cloud, the concept of "everything as code" also necessitates the use of different tools such as git, Jenkins, Jira, and others.
 
@@ -41,6 +41,9 @@ To get started, you can refer to these resources:
 - Git documentation: [https://git-scm.com/doc](https://git-scm.com/doc){:target="_blank"}
 - Introduction to version control video: [https://git-scm.com/video/what-is-version-control](https://git-scm.com/video/what-is-version-control){:target="_blank"}
 
+
+## To be continued..
+<!--  
 ## Devops concepts
 
 ## Infrastrucure as code
@@ -55,4 +58,4 @@ To get started, you can refer to these resources:
 
 ## Containers
 
-## Container Orchestration
+## Container Orchestration -->
