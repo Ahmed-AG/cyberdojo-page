@@ -6,8 +6,6 @@ author: "Ahmed Abugharbia - Assisted by AI"
 author_link: "https://twitter.com/aagsec"
 ---
 
-Cloud Secuirty Skills
-
 ## Introduction
 Securing public clouds is not fundamentally different from securing traditional networks at a high level. The same principles still apply. However, there are significant technical differences that need to be considered. One of the key distinctions is the required skill set for effectively securing public clouds like AWS, Azure, and GCP.
 
