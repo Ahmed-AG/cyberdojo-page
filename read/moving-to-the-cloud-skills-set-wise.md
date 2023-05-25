@@ -17,23 +17,24 @@ This article is based on the author's personal experience transitioning from tra
 
 Our first skill is Linux. Linux knowledge serves as the fundamental cornerstone across various computer science disciplines. It holds significant importance in traditional security and becomes indispensable in the realm of cloud security.
 
-It is worth noting that every tool mentioned in this article operates on Linux. While some of these tools may have Windows support, it often proves more sensible to run them on Linux. Additionally, Linux being the predominant operating system for running these tools, a solid understanding of Linux facilitates easier comprehension of troubleshooting steps and tutorials shared by others. This aspect should not be underestimated.
+It is enough to say that every tool mentioned in this article operates on Linux. While some of these tools may have Windows support, it often proves more sensible to run them on Linux. Additionally, Linux being the predominant operating system for running these tools, a solid understanding of Linux facilitates easier comprehension of troubleshooting steps and tutorials shared by others. This aspect is not be underestimated.
 
 When it comes to learning Linux, there are endless resources, ranging from YouTube videos to concise online tutorials. Udemy offers numerous excellent classes, and considering a certification like CompTIA Linux+ might not be a bad idea to enhance one's proficiency in Linux.
 
 ## Cloud(s)
 
-The next logical progression involves selecting one or more cloud providers and delving into understanding their workings. Each provider offers a range of training and certification paths that align with their offerings. It is recommended to start with pursuing these certifications. ALso, unless you are in a management or sales role, it is advisable to skip the AWS Certified Cloud Practitioner and instead begin with the AWS Certified Solutions Architect - Associate. The former certification is too basic for our purposes.
+The next logical progression involves selecting one or more cloud providers and delving into understanding their workings. Each provider offers a range of training and certification paths that align with their offerings. It is recommended to start with pursuing these certifications. Also, unless you are in a management or sales role, it is advisable to skip the AWS Certified Cloud Practitioner and instead begin with the AWS Certified Solutions Architect - Associate. The former certification is too basic for our purposes.
 
-While studying cloud technologies, it is essential to cover the core services provided by the chosen provider(s). Additionally, it is crucial to gain proficiency in utilizing command-line interfaces such as `awscli` and `az`. It is also important to start learning how to deploy using infrastructure using code, for instance, through tools like `CloudFormation`. We should not be deploying things manually in clouds.
+While studying cloud technologies, it is essential to cover the core services provided by the chosen provider(s). Additionally, it is crucial to gain proficiency in utilizing command-line interfaces such as `awscli` and `az`. It is also important to start learning how to deploy using infrastructure as code, for instance, through tools like `CloudFormation`. We should not be deploying things manually in the cloud.
 
 
 ## Source Code Management (SCM)
 Now that we've started working with code, it's important to learn about Source Code Management (SCM) or Version Control. SCM is a system that keeps track of changes to files, especially source code. It allows collaboration among multiple people, maintains a history of modifications, and makes merging changes easier. `git` is a popular version control system widely used in software development.
 
-As cloud security professionals, we'll need to deploy certain infrastructure components, which means we also need to learn Git. Even if deployment isn't our primary responsibility, understanding how cloud engineers write code is crucial for providing security recommendations.
+As cloud security professionals, we'll need to deploy certain infrastructure components as code, which means we also need to learn Git. Even if deployment isn't our primary responsibility, understanding how cloud engineers manage code is crucial for providing security recommendations.
 
 An additional reason for learning about SCMs, is the fact that SCMs bring about security risks. One notable concern is the potential for secrets, such as keys or passwords, to be inadvertently pushed by engineers and stored within the SCM. This makes SCM systems an attractive target for attackers, and makes it our job to protect SCMs.
+
 Learning Git can be challenging for many security professionals. However, once you grasp the basics, create a GitHub repository or two, and start working with it, using Git will become second nature.
 
 To get started, you can refer to these resources:
