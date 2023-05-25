@@ -1,7 +1,7 @@
 ---
 layout: reads
 title:  "Moving to the cloud - Skills wise"
-date:   2023-05-25
+date:   05-25-2023
 author: "Ahmed Abugharbia - Assisted by AI"
 author_link: "https://twitter.com/aagsec"
 ---

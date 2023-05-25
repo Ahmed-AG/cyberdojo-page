@@ -1,7 +1,7 @@
 ---
 layout: reads
 title:  "Installing CDF"
-date:  2022-07-20
+date:  07-20-2022
 author: "Ahmed Abugharbia"
 author_link: "https://twitter.com/aagsec"
 ---

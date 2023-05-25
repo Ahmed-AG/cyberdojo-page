@@ -1,7 +1,7 @@
 ---
 layout: reads
 title:  "Using jq with AWS"
-date:   2022-07-23
+date:   07-23-2022
 author: "Ahmed Abugharbia"
 author_link: "https://twitter.com/aagsec"
 ---
