@@ -11,7 +11,7 @@ Securing public clouds is not fundamentally different from securing traditional 
 
 A major challenge in cloud security is the paradigm of building and maintaining everything through code. This poses a significant hurdle for many cybersecurity professionals who may not have extensive experience with coding in their day-to-day work. In the cloud, the concept of "everything as code" also necessitates the use of different tools such as git, Jenkins, Jira, and others.
 
-This article is based on the author's personal experience transitioning from traditional security to cloud security. Its aim is to provide a suggested roadmap for acquiring the necessary skills to excel in cloud security. While some of these skills may not initially appear directly related to security, it is crucial to remember that "we cannot secure what we don't understand." The depth to which one should explore each topic is an individual decision, typically based on the available time. It is recommended to cover the basics of all these topics and then delve deeper into each one as time permits.
+This article is based on the author's personal experience transitioning from traditional security to cloud security. Its aim is to provide a suggested roadmap for acquiring the necessary skills to excel in cloud security. While some of these skills may not initially appear directly related to security, it is crucial to remember that <b>we cannot secure what we don't understand.</b> The depth to which one should explore each topic is an individual decision, typically based on the available time. It is recommended to cover the basics of all these topics and then delve deeper into each one as time permits.
 
 ## Linux
 
