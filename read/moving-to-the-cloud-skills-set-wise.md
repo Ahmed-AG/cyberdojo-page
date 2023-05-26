@@ -43,7 +43,7 @@ To get started, you can refer to these resources:
 - Introduction to version control video: [https://git-scm.com/video/what-is-version-control](https://git-scm.com/video/what-is-version-control){:target="_blank"}
 
 ## Infrastructure as code
-Having acquired essential foundational tools, we can now dig deeper into Infrastructure as Code (IaC). For AWS, mastering [CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html){:target="_blank"} is crucial. However, it is equally valuable to learn a cloud-agnostic IaC tool, considering the likelihood of working with multiple cloud platforms as security professionals. Learning a tool like [Terraform](https://www.terraform.io){:target="_blank"} is highly recommended.
+Having acquired essential foundational tools, we can now dig deeper into Infrastructure as Code (IaC). For AWS, learning [CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html){:target="_blank"} is crucial. However, it is equally valuable to learn a cloud-agnostic IaC tool, considering the likelihood of working with multiple cloud platforms as security professionals. Learning a tool like [Terraform](https://www.terraform.io){:target="_blank"} is highly recommended.
 
 To effectively learn Terraform, it is best to engage in a project that allows hands-on experience. If you don't have a specific project in mind, create one as a learning exercise.
 
@@ -64,6 +64,9 @@ After gaining proficiency in Linux, the next logical step is to get into scripti
 There are multiple scripting languages to choose from, but two prominent ones are [Bash](https://www.gnu.org/software/bash/manual/bash.html){:target="_blank"} and [Python](https://www.python.org){:target="_blank"}. Bash is particularly useful for smaller scripts that involve repeating a specific set of Bash commands. On the other hand, Python shines when it comes to more complex scripts. Moreover, Python is widely used in the security domain, with many security tools being written in Python.
 
 Python offers additional benefits, such as easy integration with cloud services. It can be leveraged to write Lambda functions, and its [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html){:target="_blank"} library provides a convenient means of interacting with AWS services. If you aspire to deepen your programming skills, Python is often regarded as an easier language to learn and work with.
+
+<!-- https://www.youtube.com/watch?v=qsPZL-0OIJg -->
+
 
 ## To be continued..
 - Configuration Management
