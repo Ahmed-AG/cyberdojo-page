@@ -77,7 +77,7 @@ Containerization is a significant topic that addresses the challenges of softwar
 
 Among container technologies, [Docker](https://www.docker.com){:target="_blank"} stands out as one of the most popular. I highly recommend learning how to build Docker images, push them to repositories, and work with containers. This [video](https://www.youtube.com/watch?v=pTFZFxd4hOI){:target="_blank"} can be a good intro to docker.
 
-Once you become familiar with containers, it's essential to explore container orchestration technologies. [Kubernetes](https://kubernetes.io){:target="_blank") is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
+Once you become familiar with containers, it's essential to explore container orchestration technologies. [Kubernetes](https://kubernetes.io){:target="_blank"} is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
 
 As containerization becomes increasingly crucial for our infrastructures, specially with the adoption of [Micro Services](https://en.wikipedia.org/wiki/Microservices){:target="_blank" architecture, it becomes paramount to understand how it works and how to secure it.
 
