@@ -73,7 +73,17 @@ The `Configuration Management` aspect is often overlooked by security profession
 
 There are multiple reasons why it is beneficial to gain proficiency in these tools. Firstly, they prove invaluable for managing our own infrastructure, creating labs, and similar tasks. Additionally, configuration management tools may themselves possess vulnerabilities, which can introduce security risks. Therefore, understanding these tools allows us to address potential vulnerabilities and mitigate associated risks effectively.
 
-## To be continued..
-- Configuration Management
-- Containers and 
-- Container Orchestration
+## Containers and Container Orchestration
+
+
+
+Containerization is a significant topic that addresses the challenges of software dependencies. Containers allow us to package software along with all required libraries, ensuring consistent performance across different environments. They rely on Linux Kernel features like Control Groups and namespaces. To understand containerization better, I recommend watching this informative [video](https://www.youtube.com/watch?v=x1npPrzyKfs&t=1486s
+){:target="_blank"}
+
+Among container technologies, Docker stands out as one of the most popular. I highly recommend learning how to build Docker images, push them to repositories, and work with containers. You can find a helpful resource on this topic [here](https://www.youtube.com/watch?v=pTFZFxd4hOI){:target="_blank"}
+
+Once you become familiar with containers, it's essential to explore container orchestration technologies. Kubernetes is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
+
+As containerization becomes increasingly crucial for our infrastructures, it becomes paramount to understand how it works and how to secure it.
+
+## Conclusion
