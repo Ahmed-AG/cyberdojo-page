@@ -11,7 +11,7 @@ At a high level, securing public clouds is not fundamentally different from secu
 
 A major challenge traditional security professionals face in cloud is the paradigm of building and maintaining everything through code. This poses a significant hurdle for many cybersecurity professionals who may not have extensive experience with coding in their day-to-day work. In the cloud, the concept of "everything as code" also necessitates the use of different tools such as [git](https://git-scm.com){:target="_blank"}, [Jenkins](https://www.jenkins.io){:target="_blank"}, [Jira](https://jira.atlassian.com){:target="_blank"}, and others.
 
-This article is based on the author's personal experience transitioning from traditional security to cloud security. Its aim is to provide a suggested roadmap for acquiring the necessary skills to excel in cloud security. While some of these skills may not initially appear directly related to security, it is crucial to remember that <b>we cannot secure what we don't understand.</b> The depth to which one should explore each topic is an individual decision, typically based on the available time. It is recommended to cover the basics of all these topics and then delve deeper into each one as time permits.
+This article is based on the author's personal experience transitioning from traditional security to cloud security. Its aim is to provide a suggested roadmap for acquiring the necessary skills to excel in cloud security. While some of these skills may not initially appear directly related to security, it is crucial to remember that <b>we cannot secure what we don't understand.</b> The depth to which one should explore each topic is an individual decision, typically based on the available time. It is recommended to cover the basics of all these topics and then dig deeper into each one as time permits.
 
 ## Linux
 
@@ -50,7 +50,7 @@ To effectively learn Terraform, it is best to engage in a project that allows ha
 The [Terraform website](https://developer.hashicorp.com/terraform/intro){:target="_blank"} itself is the ideal starting point for your Terraform journey. It offers comprehensive resources and guidance to facilitate your understanding of the tool and its usage.
 
 ## DevOps Concepts (CI/CD)
-DevOps is a broad topic encompassing various practices and tools. To gain an introduction, I recommend watching [this](https://www.youtube.com/watch?v=Xrgk023l4lI){:target="_blank"} video, which provides a useful overview.
+DevOps is a broad topic encompassing various practices and tools. To gain an introduction, I recommend watching [this video](https://www.youtube.com/watch?v=Xrgk023l4lI){:target="_blank"}, which provides a useful overview.
 
 Continuous Integration and Continuous Delivery/Deployment or `CI/CD` is a crucial aspect of DevOps. It involves continuously adding code and automatically delivering or deploying it to production. This approach enables fast and efficient deployments.
 
