@@ -69,20 +69,22 @@ If you aspire to deepen your programming skills, Python is often regarded as an 
 <!-- https://www.youtube.com/watch?v=qsPZL-0OIJg -->
 
 ## Configuration Management
-The `Configuration Management` aspect is often overlooked by security professionals, yet it holds significant importance. In a DevOps-driven environment, configuration is treated as code, encompassing all aspects of our infrastructure. While tools like Terraform or CloudFormation are commonly used to build the underlying infrastructure, including networks (VPCs, NAT Gateways, etc) and other cloud services, configuring specific elements within instances require the assistance of a configuration management tool like [Ansible](https://www.ansible.com){:target="_blank"}, [Chef](https://www.chef.io/){:target="_blank"}, or [Puppet](https://www.puppet.com){:target="_blank"}.
+The `Configuration Management` aspect is sometimes overlooked by security professionals, yet it holds significant importance. In a DevOps-driven environment, configuration is treated as code, encompassing all aspects of our infrastructure. While tools like Terraform or CloudFormation are commonly used to build the underlying infrastructure, including VPCs, NAT Gateways, S3 buckets and other cloud services, configuring specific elements within instances require the assistance of a configuration management tool like [Ansible](https://www.ansible.com){:target="_blank"}, [Chef](https://www.chef.io/){:target="_blank"}, or [Puppet](https://www.puppet.com){:target="_blank"}.
 
 There are multiple reasons why it is beneficial to gain proficiency in these tools. Firstly, they prove invaluable for managing our own infrastructure, creating labs, and similar tasks. Additionally, configuration management tools may themselves possess vulnerabilities, which can introduce security risks. Therefore, understanding these tools allows us to address potential vulnerabilities and mitigate associated risks effectively.
 
 ## Containers and Container Orchestration
 
-
-
 Containerization is a significant topic that addresses the challenges of software dependencies. Containers allow us to package software along with all required libraries, ensuring consistent performance across different environments. They rely on Linux Kernel features like Control Groups and namespaces. To understand containerization better, I recommend watching this informative [video](https://www.youtube.com/watch?v=x1npPrzyKfs&t=1486s){:target="_blank"}.
 
-Among container technologies, Docker stands out as one of the most popular. I highly recommend learning how to build Docker images, push them to repositories, and work with containers. This [video](https://www.youtube.com/watch?v=pTFZFxd4hOI){:target="_blank"} can be a good intro to docker.
+Among container technologies, [Docker](https://www.docker.com){:target="_blank"} stands out as one of the most popular. I highly recommend learning how to build Docker images, push them to repositories, and work with containers. This [video](https://www.youtube.com/watch?v=pTFZFxd4hOI){:target="_blank"} can be a good intro to docker.
 
-Once you become familiar with containers, it's essential to explore container orchestration technologies. Kubernetes is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
+Once you become familiar with containers, it's essential to explore container orchestration technologies. [Kubernetes](https://kubernetes.io){:target="_blank") is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
 
-As containerization becomes increasingly crucial for our infrastructures, it becomes paramount to understand how it works and how to secure it.
+As containerization becomes increasingly crucial for our infrastructures, specially with the adoption of [Micro Services](https://en.wikipedia.org/wiki/Microservices){:target="_blank" architecture, it becomes paramount to understand how it works and how to secure it.
 
-## Conclusion
+## Final thoughts
+
+Although it may seem like a lengthy list of topics to learn, these technologies and tools are essential foundations for understanding and securing the cloud. As we embark on this exploration journey, we bring along our past traditional security experience and adapt it to the cloud and DevOps ecosystem.
+
+By learning about each of these areas, we simultaneously explore their security aspects. It's important to approach this learning process as an integrated effort, blending our existing knowledge with the new skills we acquire. This iterative approach allows us to navigate the cloud and DevOps landscape while continuously adapting and refining our security practices.
