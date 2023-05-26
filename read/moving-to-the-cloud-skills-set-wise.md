@@ -58,9 +58,14 @@ Initially, when starting with Infrastructure as Code (IaC), we often deploy dire
 
 When organizations embrace DevOps practices, they usually rely on a suite of tools, including orchestrators and others. As security professionals, it is important for us to learn these tools for several reasons. Firstly, we can utilize the same tools to deploy our own infrastructure. Secondly, we need to understand the risks associated with these tools and how to secure them. Lastly, we can leverage these tools to enforce secure deployments, ensuring that security measures are embedded throughout the deployment process.
 
+## Scripting
+After gaining proficiency in Linux, the next logical step is to get into scripting. Scripting skills are essential for working with orchestrators and building deployment pipelines. They also prove invaluable when utilizing command-line tools like `az` and `awscli`.
+
+There are multiple scripting languages to choose from, but two prominent ones are [Bash](https://www.gnu.org/software/bash/manual/bash.html){:target="_blank"} and [Python](https://www.python.org){:target="_blank"}. Bash is particularly useful for smaller scripts that involve repeating a specific set of Bash commands. On the other hand, Python shines when it comes to more complex scripts. Moreover, Python is widely used in the security domain, with many security tools being written in Python.
+
+Python offers additional benefits, such as easy integration with cloud services. It can be leveraged to write Lambda functions, and its Boto3 library provides a convenient means of interacting with AWS services. If you aspire to deepen your programming skills, Python is often regarded as an easier language to learn and work with.
 
 ## To be continued..
-- Scripting
 - Configuration Management
 - Containers
 - Container Orchestration
