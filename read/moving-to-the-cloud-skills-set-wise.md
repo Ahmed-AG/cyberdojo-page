@@ -15,7 +15,7 @@ This article is based on the author's personal experience transitioning from tra
 
 ## Linux
 
-Our first skill is Linux. Linux knowledge serves as the fundamental cornerstone across various computer science disciplines. It holds significant importance in traditional security and becomes indispensable in the realm of cloud security.
+Our first skill is [Linux](https://en.wikipedia.org/wiki/Linux){:target="_blank"}. Linux knowledge serves as the fundamental cornerstone across various computer science disciplines. It holds significant importance in traditional security and becomes indispensable in the realm of cloud security.
 
 It is enough to say that every tool mentioned in this article operates on Linux. While some of these tools may have Windows support, it often proves more sensible to run them on Linux. Additionally, Linux being the predominant operating system for running these tools, a solid understanding of Linux facilitates easier comprehension of troubleshooting steps and tutorials shared by others. This aspect is not be underestimated.
 
