@@ -42,10 +42,17 @@ To get started, you can refer to these resources:
 - Git documentation: [https://git-scm.com/doc](https://git-scm.com/doc){:target="_blank"}
 - Introduction to version control video: [https://git-scm.com/video/what-is-version-control](https://git-scm.com/video/what-is-version-control){:target="_blank"}
 
+## Infrastrucure as code
+Having acquired essential foundational tools, we can now delve deeper into Infrastructure as Code (IAC). For AWS, mastering CloudFormation{:target="_blank"} is crucial. However, it is equally valuable to learn a cloud-agnostic IaC tool, considering the likelihood of working with multiple cloud platforms as security professionals. Learning a tool like Terraform{:target="_blank"} is highly recommended.
+
+To effectively learn Terraform, it is best to engage in a project that allows hands-on experience. If you don't have a specific project in mind, create one as a learning exercise.
+
+The Terraform website itself [https://developer.hashicorp.com/terraform/intro](https://developer.hashicorp.com/terraform/intro){:target="_blank"} is the ideal starting point for your Terraform journey. It offers comprehensive resources and guidance to facilitate your understanding of the tool and its usage.
+
+## DevOps Concepts
+When we first start with IaC, we usually start deploying direcly from our computers
 
 ## To be continued..
-- Devops concepts
-- Infrastrucure as code
 - Scripting
 - Configuration Management
 - Containers
