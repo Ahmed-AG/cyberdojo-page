@@ -63,7 +63,8 @@ After gaining proficiency in Linux, the next logical step is to get into scripti
 
 There are multiple scripting languages to choose from, but two prominent ones are [Bash](https://www.gnu.org/software/bash/manual/bash.html){:target="_blank"} and [Python](https://www.python.org){:target="_blank"}. Bash is particularly useful for smaller scripts that involve repeating a specific set of Bash commands. On the other hand, Python shines when it comes to more complex scripts. Moreover, Python is widely used in the security domain, with many security tools being written in Python.
 
-Python offers additional benefits, such as easy integration with cloud services. It can be leveraged to write Lambda functions, and its [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html){:target="_blank"} library provides a convenient means of interacting with AWS services. If you aspire to deepen your programming skills, Python is often regarded as an easier language to learn and work with.
+Python offers additional benefits, such as easy integration with cloud services. It can be leveraged to write Lambda functions, and its [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html){:target="_blank"} library provides a convenient means of interacting with AWS services. This means that we can automate security remediation and responses.
+If you aspire to deepen your programming skills, Python is often regarded as an easier language to learn and work with.
 
 <!-- https://www.youtube.com/watch?v=qsPZL-0OIJg -->
 
