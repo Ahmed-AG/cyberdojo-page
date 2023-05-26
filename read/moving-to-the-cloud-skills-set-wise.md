@@ -29,7 +29,7 @@ While studying cloud technologies, it is essential to cover the core services pr
 
 
 ## Source Code Management (SCM)
-Now that we've started working with code, it's important to learn about Source Code Management (SCM) or Version Control. SCM is a system that keeps track of changes to files, especially source code. It allows collaboration among multiple people, maintains a history of modifications, and makes merging changes easier. `git` is a popular version control system widely used in software development.
+Now that we've started working with code, it's important to learn about Source Code Management (SCM) or Version Control. SCM is a system that keeps track of changes to files, especially source code. It allows collaboration among multiple people, maintains a history of modifications, and makes merging changes easier. [git](https://git-scm.com){:target="_blank"} is a popular version control system widely used in software development.
 
 As cloud security professionals, we'll need to deploy certain infrastructure components as code, which means we also need to learn Git. Even if deployment isn't our primary responsibility, understanding how cloud engineers manage code is crucial for providing security recommendations.
 
