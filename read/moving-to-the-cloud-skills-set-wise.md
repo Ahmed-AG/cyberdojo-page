@@ -47,7 +47,7 @@ Having acquired essential foundational tools, we can now dig deeper into Infrast
 
 To effectively learn Terraform, it is best to engage in a project that allows hands-on experience. If you don't have a specific project in mind, create one as a learning exercise.
 
-The Terraform [website](https://developer.hashicorp.com/terraform/intro){:target="_blank"} itself is the ideal starting point for your Terraform journey. It offers comprehensive resources and guidance to facilitate your understanding of the tool and its usage.
+The [Terraform website](https://developer.hashicorp.com/terraform/intro){:target="_blank"} itself is the ideal starting point for your Terraform journey. It offers comprehensive resources and guidance to facilitate your understanding of the tool and its usage.
 
 ## DevOps Concepts (CI/CD)
 DevOps is a broad topic encompassing various practices and tools. To gain an introduction, I recommend watching [this](https://www.youtube.com/watch?v=Xrgk023l4lI){:target="_blank"} video, which provides a useful overview.
