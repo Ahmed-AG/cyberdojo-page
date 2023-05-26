@@ -77,10 +77,9 @@ There are multiple reasons why it is beneficial to gain proficiency in these too
 
 
 
-Containerization is a significant topic that addresses the challenges of software dependencies. Containers allow us to package software along with all required libraries, ensuring consistent performance across different environments. They rely on Linux Kernel features like Control Groups and namespaces. To understand containerization better, I recommend watching this informative [video](https://www.youtube.com/watch?v=x1npPrzyKfs&t=1486s
-){:target="_blank"}
+Containerization is a significant topic that addresses the challenges of software dependencies. Containers allow us to package software along with all required libraries, ensuring consistent performance across different environments. They rely on Linux Kernel features like Control Groups and namespaces. To understand containerization better, I recommend watching this informative [video](https://www.youtube.com/watch?v=x1npPrzyKfs&t=1486s){:target="_blank"}.
 
-Among container technologies, Docker stands out as one of the most popular. I highly recommend learning how to build Docker images, push them to repositories, and work with containers. You can find a helpful resource on this topic [here](https://www.youtube.com/watch?v=pTFZFxd4hOI){:target="_blank"}
+Among container technologies, Docker stands out as one of the most popular. I highly recommend learning how to build Docker images, push them to repositories, and work with containers. This [video](https://www.youtube.com/watch?v=pTFZFxd4hOI){:target="_blank"} can be a good intro to docker.
 
 Once you become familiar with containers, it's essential to explore container orchestration technologies. Kubernetes is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
 
