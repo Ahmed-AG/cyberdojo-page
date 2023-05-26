@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "Building a Strong Cloud Security Foundation: Skills You Can't Ignore"
+title:  "Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore"
 date:   05-26-2023
 author: "Ahmed Abugharbia - Assisted by AI"
 author_link: "https://twitter.com/aagsec"

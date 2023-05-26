@@ -17,7 +17,7 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 ---
 
 ## <a id="read"></a>Reading Room
-- [Building a Strong Cloud Security Foundation: Skills You Can't Ignore](/read/building-a-strong-cloud-security-foundation.html)
+- [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
 - [Using jq with AWS](/read/jq-for-AWS.md)
 - [Installing Cloud Deployment Framework (CDF)](/read/cloud-deployment-framework.md)
 
