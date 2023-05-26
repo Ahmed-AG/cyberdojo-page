@@ -49,8 +49,15 @@ To effectively learn Terraform, it is best to engage in a project that allows ha
 
 The Terraform website itself [https://developer.hashicorp.com/terraform/intro](https://developer.hashicorp.com/terraform/intro){:target="_blank"} is the ideal starting point for your Terraform journey. It offers comprehensive resources and guidance to facilitate your understanding of the tool and its usage.
 
-## DevOps Concepts
-When we first start with IaC, we usually start deploying direcly from our computers
+## DevOps Concepts (CI/CD)
+DevOps is a broad topic encompassing various practices and tools. To gain an introduction, I recommend watching [this](https://www.youtube.com/watch?v=Xrgk023l4lI){:target="_blank"} video, which provides a useful overview.
+
+Continuous Integration and Continuous Delivery/Deployment (`CI/CD`) is a crucial aspect of DevOps. It involves continuously adding code and automatically delivering or deploying it to production. This approach enables fast and efficient deployments.
+
+Initially, when starting with Infrastructure as Code (IaC), we often deploy directly from our computers by running commands such as `terraform plan` and `terraform apply`. However, in production environments, deployment pipelines are typically utilized. Tools like Jenkins, AWS CodePipeline, Azure DevOps, and GitHub Actions act as orchestrators, creating deployment pipelines to move code from repositories to production. This is where our `Linux` knowledge will come in very handy.
+
+When organizations embrace DevOps practices, they usually rely on a suite of tools, including orchestrators and others. As security professionals, it is important for us to learn these tools for several reasons. Firstly, we can utilize the same tools to deploy our infrastructure. Secondly, we need to understand the risks associated with these tools and how to secure them. Lastly, we can leverage these tools to enforce secure deployments, ensuring that security measures are embedded throughout the deployment process.
+
 
 ## To be continued..
 - Scripting
