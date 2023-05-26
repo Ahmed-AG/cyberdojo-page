@@ -25,7 +25,7 @@ When it comes to learning Linux, there are endless resources, ranging from YouTu
 
 The next logical progression involves selecting one or more cloud providers and delving into understanding their workings. Each provider offers a range of training and certification paths that align with their offerings. It is recommended to start with pursuing these certifications. Also, unless you are in a management or sales role, it is advisable to skip the AWS Certified Cloud Practitioner and instead begin with the AWS Certified Solutions Architect - Associate. The former certification is too basic for our purposes.
 
-While studying cloud technologies, it is essential to cover the core services provided by the chosen provider(s). Additionally, it is crucial to gain proficiency in utilizing command-line interfaces such as `awscli` and `az`. It is also important to start learning how to deploy using infrastructure as code, for instance, through tools like `CloudFormation`. We should not be deploying things manually in the cloud.
+While studying cloud technologies, it is essential to cover the core services provided by the chosen provider(s). Additionally, it is crucial to gain proficiency in utilizing command-line interfaces such as `awscli` and `az`. It is also important to start learning how to deploy using infrastructure as code, for instance, through tools like [CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html){:target="_blank"}. We should not be deploying things manually in the cloud.
 
 
 ## Source Code Management (SCM)
