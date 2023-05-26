@@ -68,8 +68,12 @@ If you aspire to deepen your programming skills, Python is often regarded as an 
 
 <!-- https://www.youtube.com/watch?v=qsPZL-0OIJg -->
 
+## Configuration Management
+The `Configuration Management` aspect is often overlooked by security professionals, yet it holds significant importance. In a DevOps-driven environment, configuration is treated as code, encompassing all aspects of our infrastructure. While tools like Terraform or CloudFormation are commonly used to build the underlying infrastructure, including networks (VPCs, NAT Gateways, etc) and other cloud services, configuring specific elements within instances require the assistance of a configuration management tool like [Ansible](https://www.ansible.com){:target="_blank"}, [Chef](https://www.chef.io/){:target="_blank"}, or [Puppet](https://www.puppet.com){:target="_blank"}.
+
+There are multiple reasons why it is beneficial to gain proficiency in these tools. Firstly, they prove invaluable for managing our own infrastructure, creating labs, and similar tasks. Additionally, configuration management tools may themselves possess vulnerabilities, which can introduce security risks. Therefore, understanding these tools allows us to address potential vulnerabilities and mitigate associated risks effectively.
 
 ## To be continued..
 - Configuration Management
-- Containers
+- Containers and 
 - Container Orchestration
