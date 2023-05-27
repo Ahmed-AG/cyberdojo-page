@@ -79,7 +79,7 @@ Among container technologies, [Docker](https://www.docker.com){:target="_blank"}
 
 Once you become familiar with containers, it's essential to explore container orchestration technologies. [Kubernetes](https://kubernetes.io){:target="_blank"} is an open-source platform that automates the deployment, scaling, and management of containerized applications. It provides a flexible and scalable infrastructure for running distributed systems. With Kubernetes, you can easily manage and orchestrate containers, scale applications based on demand, and ensure high availability.
 
-As containerization becomes increasingly crucial for our infrastructures, specially with the adoption of [Micro Services](https://en.wikipedia.org/wiki/Microservices){:target="_blank"} architectures, it becomes paramount to understand how it works and how to secure it.
+As containerization becomes increasingly crucial for our infrastructures, specially with the adoption of [Microservices](https://en.wikipedia.org/wiki/Microservices){:target="_blank"} architectures, it becomes paramount to understand how it works and how to secure it.
 
 ## Final thoughts
 
