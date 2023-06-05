@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: reads
 ---
 
 ## <a id="research-projects"></a>Projects
