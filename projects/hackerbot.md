@@ -5,7 +5,7 @@ layout: projects
 ## hackerBot
 hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
 
-![HackerBot searching through logs and answering questions](/static/hackerBot.png?raw=true)
+![HackerBot searching through logs and answering questions](/static/hackerBot.png?raw=true){width=10 height=10}
 
 <i class="fab fa-github"></i> [hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
 
