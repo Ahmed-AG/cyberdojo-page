@@ -10,7 +10,7 @@ There are many reasons why we might need to run docker remotly. Since docker run
 
 ### On the server side
 
-Run `sudo systemctl status docker` to check the status and verity service configuration file `options.conf`
+- Run `sudo systemctl status docker` to check the status and verity service configuration file `options.conf`
 
 ```bash
 ┌──(kali㉿kali)-[~]
@@ -30,12 +30,12 @@ TriggeredBy: ● docker.socket
 
 Notice the line: `Loaded: loaded (/lib/systemd/system/docker.service; enabled; preset: enabled)`
 
-Add `-H tcp://0.0.0.0:2375` to `ExecStart` under `/etc/systemd/system/docker.service.d/options.conf` 
+- Add `-H tcp://0.0.0.0:2375` to `ExecStart` under `/etc/systemd/system/docker.service.d/options.conf` 
 
 ```bash
 ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/containerd/containerd.sock $DOCKER_OPTS
 ```
-Retstart docker service
+- Retstart docker service
 
 ```bash
 sudo systemctl restart docker
@@ -43,12 +43,12 @@ sudo systemctl restart docker
 
 ### On the client side
 
-On the client side, set DOCKER_HOST to the IP address of your server
+- Set DOCKER_HOST to the IP address of your server
 
 ```bash
 export DOCKER_HOST=tcp://<IP_ADDRESS>:2375
 ```
-try to run docker commands 
+- try to run docker commands 
 
 ```bash
 % docker info
