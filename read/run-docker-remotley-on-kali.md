@@ -116,3 +116,6 @@ WARNING: API is accessible on http://0.0.0.0:2375 without encryption.
          more information: https://docs.docker.com/go/attack-surface/
 % 
 ```
+
+### Encrypting traffic
+TODO
