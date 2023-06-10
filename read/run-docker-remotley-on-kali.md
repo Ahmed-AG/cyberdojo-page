@@ -30,7 +30,7 @@ TriggeredBy: ● docker.socket
 
 Notice the line: `Loaded: loaded (/lib/systemd/system/docker.service; enabled; preset: enabled)`
 
-- Add `-H tcp://0.0.0.0:2375` to `ExecStart` under `/etc/systemd/system/docker.service.d/options.conf` 
+- Add `-H tcp://0.0.0.0:2375` to ExecStart under `/etc/systemd/system/docker.service.d/options.conf` 
 
 ```bash
 ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/containerd/containerd.sock $DOCKER_OPTS
