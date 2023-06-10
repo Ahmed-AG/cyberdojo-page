@@ -28,8 +28,7 @@ TriggeredBy: ● docker.socket
              └─94373 /usr/sbin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
 ```
 
-Notice the line:
-`     Loaded: loaded (/lib/systemd/system/docker.service; enabled; preset: enabled)`
+Notice the line: `Loaded: loaded (/lib/systemd/system/docker.service; enabled; preset: enabled)`
 
 Add `-H tcp://0.0.0.0:2375` to `ExecStart` under `/etc/systemd/system/docker.service.d/options.conf` 
 
