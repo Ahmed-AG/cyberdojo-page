@@ -6,7 +6,6 @@ author: "Ahmed Abugharbia"
 author_link: "https://twitter.com/aagsec"
 ---
 
-## Introduction
 There are many reasons why we might need to run docker remotly. Since docker runs  
 
 ### On the server side
