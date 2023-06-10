@@ -9,7 +9,7 @@ author_link: "https://twitter.com/aagsec"
 ## Introduction
 There are many reasons why we might need to run docker remotly. Since docker runs  
 
-## On the server side
+### On the server side
 
 Run `sudo systemctl status docker` to check the status and verity service configuration file `options.conf`
 
@@ -37,6 +37,7 @@ Add `-H tcp://0.0.0.0:2375` to `ExecStart` under `/etc/systemd/system/docker.ser
 ```bash
 ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/containerd/containerd.sock $DOCKER_OPTS
 ```
+### On the client side
 
 On the client side, set DOCKER_HOST to the IP address of your server
 
@@ -47,5 +48,5 @@ export DOCKER_HOST=tcp://<IP_ADDRESS>:2375
 Retstart docker service
 
 ```bash
-udo systemctl restart docker
+sudo systemctl restart docker
 ```
