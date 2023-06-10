@@ -41,8 +41,7 @@ ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/con
 On the client side, set DOCKER_HOST to the IP address of your server
 
 ```bash
-export DOCKER_HOST=tcp://<<IP_ADDRESS>>:2375 
-
+export DOCKER_HOST=tcp://<IP_ADDRESS>:2375
 ```
 
 Retstart docker service
