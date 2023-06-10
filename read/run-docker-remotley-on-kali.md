@@ -5,10 +5,9 @@ date:   06-10-2023
 author: "Ahmed Abugharbia"
 author_link: "https://twitter.com/aagsec"
 ---
+Occasionally, running Docker locally may not be feasible due to various reasons, such as requiring a different architecture. In such cases, setting up a Docker server on Kali Linux can be a viable solution. Docker operates in a client-server model, allowing us to establish a Docker server on Kali Linux in the following manner   
 
-There are many reasons why we might need to run docker remotly. Since docker runs  
-
-### On the server side
+### On the server side (Kali Linux)
 
 - Run `sudo systemctl status docker` to check the status and verity service configuration file `options.conf`
 
@@ -40,6 +39,7 @@ ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/con
 ```bash
 sudo systemctl restart docker
 ```
+Not: you might need to run `systemctl daemon-reload`
 
 ### On the client side
 
