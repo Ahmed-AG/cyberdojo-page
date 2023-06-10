@@ -117,5 +117,4 @@ WARNING: API is accessible on http://0.0.0.0:2375 without encryption.
 % 
 ```
 
-### Encrypting traffic
-TODO
+Note: This traffic is not encrypted. To encrypt it we will have to create certificates and establish trust
