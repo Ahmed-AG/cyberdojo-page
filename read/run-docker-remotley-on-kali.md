@@ -5,7 +5,7 @@ date:   06-10-2023
 author: "Ahmed Abugharbia"
 author_link: "https://twitter.com/aagsec"
 ---
-Occasionally, running Docker locally may not be feasible due to various reasons, such as requiring a different architecture. In such cases, setting up a Docker server on Kali Linux can be a viable solution. Docker operates in a client-server model, allowing us to establish a Docker server on Kali Linux in the following manner   
+Occasionally, running Docker locally may not be feasible due to various reasons, such as requiring a different architecture. In such cases, setting up a Docker server on Kali Linux can be a viable solution. Docker operates in a client-server model, allowing us to establish a Docker server on Kali Linux in the following manner.
 
 ### On the server side (Kali Linux)
 
@@ -34,7 +34,7 @@ Notice the line: `Loaded: loaded (/lib/systemd/system/docker.service; enabled; p
 ```bash
 ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/containerd/containerd.sock $DOCKER_OPTS
 ```
-- Retstart docker service
+- Restart docker service
 
 ```bash
 sudo systemctl restart docker
@@ -117,4 +117,4 @@ WARNING: API is accessible on http://0.0.0.0:2375 without encryption.
 % 
 ```
 
-Note: This traffic is not encrypted. To encrypt it we will have to create certificates and establish trust
+Note: This traffic is not encrypted. To encrypt it we will have to create certificates and establish trust.
