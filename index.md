@@ -9,6 +9,7 @@ layout: default
 ---
 
 ## <a id="read"></a>Reading Room
+- [Running Docker remotely on kali Linux server](/read/run-docker-remotley-on-kali.md)
 - [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
 - [Using jq with AWS](/read/jq-for-AWS.md)
 - [Installing Cloud Deployment Framework (CDF)](/read/cloud-deployment-framework.md)
