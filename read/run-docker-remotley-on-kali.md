@@ -48,7 +48,7 @@ sudo systemctl restart docker
 ```bash
 export DOCKER_HOST=tcp://<IP_ADDRESS>:2375
 ```
-- try to run docker commands 
+- Try to run docker commands 
 
 ```bash
 % docker info
