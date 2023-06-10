@@ -39,7 +39,7 @@ ExecStart=/usr/sbin/dockerd -H tcp://0.0.0.0:2375 -H fd:// --containerd=/run/con
 ```bash
 sudo systemctl restart docker
 ```
-Not: you might need to run `systemctl daemon-reload`
+Note: you might need to run `systemctl daemon-reload`
 
 ### On the client side
 
