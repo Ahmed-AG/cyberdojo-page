@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "Running Docker remotely on kali Linux server"
+title:  "Running Docker remotely on kali Linux"
 date:   06-10-2023
 author: "Ahmed Abugharbia"
 author_link: "https://twitter.com/aagsec"
