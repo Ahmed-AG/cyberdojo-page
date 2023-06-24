@@ -108,7 +108,7 @@ newgrp docker
 Try again...
 
 ```bash
-docker run alpine bash/ls
+docker run alpine ls
 ```
 
 ```
@@ -222,13 +222,62 @@ ubuntu       latest    99284ca6cea0   2 weeks ago   77.8MB
 ubuntu@ip-10-0-15-223:~$ 
 ```
 
+```bash
 docker run --name container1 -it ubuntu bash
-
+```
 `exit`
+
+```
+ubuntu@ip-10-0-15-223:~$ docker run --name container1 -it ubuntu bash
+root@7c613023d471:/# exit
+exit
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+``` bash
+docker ps -a
+```
+```
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                      PORTS     NAMES
+7c613023d471   ubuntu    "bash"    53 seconds ago   Exited (0) 39 seconds ago             container1
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+
+```
+ubuntu@ip-10-0-15-223:~$ docker run --name container2 -d ubuntu top
+215004f4e5f356a78b1b1f3526f5527edd75dce242266bb0d064f90dcd510b02
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+```
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                      PORTS     NAMES
+215004f4e5f3   ubuntu    "top"     28 seconds ago   Exited (1) 28 seconds ago             container2
+7c613023d471   ubuntu    "bash"    3 minutes ago    Exited (0) 3 minutes ago              container1
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+ubuntu@ip-10-0-15-223:~$ docker run -d --name container2 -ti ubuntu bash 
+974cbceb84c405d0cfa1d7e62a6ddaf551fca640115c0d6194833586668a1546
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS                     PORTS     NAMES
+974cbceb84c4   ubuntu    "bash"    4 seconds ago   Up 3 seconds                         container2
+7c613023d471   ubuntu    "bash"    7 minutes ago   Exited (0) 7 minutes ago             container1
+ubuntu@ip-10-0-15-223:~$ 
+
 
 docker start container1
 
-docker ps -a
+ubuntu@ip-10-0-15-223:~$ docker start container1
+container1
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS          PORTS     NAMES
+974cbceb84c4   ubuntu    "bash"    57 seconds ago   Up 56 seconds             container2
+7c613023d471   ubuntu    "bash"    8 minutes ago    Up 7 seconds              container1
+ubuntu@ip-10-0-15-223:~$ 
+
 
 
 ## Building a docker image
