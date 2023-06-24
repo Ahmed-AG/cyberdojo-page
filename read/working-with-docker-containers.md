@@ -22,6 +22,7 @@ sudo apt  install docker.io
 
 ```bash
 sudo docker info
+```
 
 ```
 ubuntu@ip-10-0-15-223:~$ sudo docker info
