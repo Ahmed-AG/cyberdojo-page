@@ -79,10 +79,35 @@ Server:
 
 ubuntu@ip-10-0-15-223:~$
 ```
-
+```bash
 sudo docker images
+```
 
+```
+ubuntu@ip-10-0-15-223:~$ sudo docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+
+```bash
 docker images
+```
+
+```
+ubuntu@ip-10-0-15-223:~$ docker images
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json": dial unix /var/run/docker.sock: connect: permission denied
+ubuntu@ip-10-0-15-223:~$
+```
+
+```
+ubuntu@ip-10-0-15-223:~$ sudo docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+```
+```
 
 sudo usermod -aG docker ubuntu
 newgrp docker
