@@ -296,9 +296,9 @@ ubuntu@ip-10-0-15-223:~$
 
 ## Building a docker image
 
-## Adding Non-privilaged User
+### Adding Non-privilaged User
 
-## DockerHub
+### DockerHub
 
 
 
