@@ -158,11 +158,8 @@ ubuntu@ip-10-0-15-223:~$
 ```
 ## Working with Images
 
-docker images
-ubuntu@ubuntu:~$ docker rmi alpine
-
 ```bash
-docker ps
+docker images
 ```
 
 ```
