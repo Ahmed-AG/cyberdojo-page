@@ -259,6 +259,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                      
 ubuntu@ip-10-0-15-223:~$ 
 ```
 
+```
 ubuntu@ip-10-0-15-223:~$ docker run -d --name container2 -ti ubuntu bash 
 974cbceb84c405d0cfa1d7e62a6ddaf551fca640115c0d6194833586668a1546
 ubuntu@ip-10-0-15-223:~$ docker ps -a
@@ -266,10 +267,12 @@ CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS                     PO
 974cbceb84c4   ubuntu    "bash"    4 seconds ago   Up 3 seconds                         container2
 7c613023d471   ubuntu    "bash"    7 minutes ago   Exited (0) 7 minutes ago             container1
 ubuntu@ip-10-0-15-223:~$ 
-
-
+```
+```bash
 docker start container1
+```
 
+```
 ubuntu@ip-10-0-15-223:~$ docker start container1
 container1
 ubuntu@ip-10-0-15-223:~$ docker ps -a
@@ -277,8 +280,19 @@ CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS          PORTS     NA
 974cbceb84c4   ubuntu    "bash"    57 seconds ago   Up 56 seconds             container2
 7c613023d471   ubuntu    "bash"    8 minutes ago    Up 7 seconds              container1
 ubuntu@ip-10-0-15-223:~$ 
+```
 
-
+```
+ubuntu@ip-10-0-15-223:~$ docker stop container1
+container1
+ubuntu@ip-10-0-15-223:~$ docker stop container2
+container2
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                        PORTS     NAMES
+974cbceb84c4   ubuntu    "bash"    7 minutes ago    Exited (137) 7 seconds ago              container2
+7c613023d471   ubuntu    "bash"    15 minutes ago   Exited (137) 22 seconds ago             container1
+ubuntu@ip-10-0-15-223:~$ 
+```
 
 ## Building a docker image
 
