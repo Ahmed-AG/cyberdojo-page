@@ -139,7 +139,7 @@ ubuntu@ip-10-0-15-223:~$
 ```
 
 ```bash
-docker run alpine bash/pwd
+docker run alpine pwd
 ```
 ```
 ubuntu@ip-10-0-15-223:~$ docker run alpine pwd
@@ -148,7 +148,7 @@ ubuntu@ip-10-0-15-223:~$ docker run alpine pwd
 ```
 
 ```bash
-docker run alpine bash/whoami
+docker run alpine whoami
 ```
 
 ```
@@ -198,9 +198,32 @@ CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 ubuntu@ip-10-0-15-223:~$ 
 ```
 
+```bash
 docker pull ubuntu
+```
 
+```
+ubuntu@ip-10-0-15-223:~$ docker pull ubuntu
+Using default tag: latest
+latest: Pulling from library/ubuntu
+6b851dcae6ca: Pull complete 
+Digest: sha256:6120be6a2b7ce665d0cbddc3ce6eae60fe94637c6a66985312d1f02f63cc0bcd
+Status: Downloaded newer image for ubuntu:latest
+docker.io/library/ubuntu:latest
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+```bash
 docker images
+```
+
+```
+ubuntu@ip-10-0-15-223:~$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+alpine       latest    c1aabb73d233   9 days ago    7.33MB
+ubuntu       latest    99284ca6cea0   2 weeks ago   77.8MB
+ubuntu@ip-10-0-15-223:~$ 
+```
 
 docker run --name container1 -it ubuntu bash
 
