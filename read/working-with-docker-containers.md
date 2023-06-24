@@ -161,11 +161,42 @@ ubuntu@ip-10-0-15-223:~$
 docker images
 ubuntu@ubuntu:~$ docker rmi alpine
 
+```bash
 docker ps
+```
 
+```
+ubuntu@ip-10-0-15-223:~$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
+alpine       latest    c1aabb73d233   9 days ago   7.33MB
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+
+```bash
 docker ps -a
+```
 
-docker rm 39c0bbdce667
+```
+ubuntu@ip-10-0-15-223:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND         CREATED              STATUS                          PORTS     NAMES
+9f750c816036   alpine    "whoami"        About a minute ago   Exited (0) About a minute ago             strange_khorana
+646337c35466   alpine    "pwd"           2 minutes ago        Exited (0) 2 minutes ago                  pensive_darwin
+a3b144ec4226   alpine    "ls"            3 minutes ago        Exited (0) 3 minutes ago                  recursing_elbakyan
+ubuntu@ip-10-0-15-223:~$ 
+```
+
+```bash
+docker rm 9f750c816036 646337c35466 a3b144ec4226
+```
+
+```
+ubuntu@ip-10-0-15-223:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+ubuntu@ip-10-0-15-223:~$ 
+```
 
 docker pull ubuntu
 
