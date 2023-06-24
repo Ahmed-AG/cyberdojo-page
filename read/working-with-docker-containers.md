@@ -101,23 +101,61 @@ Got permission denied while trying to connect to the Docker daemon socket at uni
 ubuntu@ip-10-0-15-223:~$
 ```
 
+```bash
+sudo usermod -aG docker ubuntu
+newgrp docker
 ```
-ubuntu@ip-10-0-15-223:~$ sudo docker images
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+Try again...
+
+```bash
+docker run alpine bash/ls
+```
+
+```
+ubuntu@ip-10-0-15-223:~$ docker run alpine ls
+Unable to find image 'alpine:latest' locally
+latest: Pulling from library/alpine
+31e352740f53: Pull complete 
+Digest: sha256:82d1e9d7ed48a7523bdebc18cf6290bdb97b82302a8a9c27d4fe885949ea94d1
+Status: Downloaded newer image for alpine:latest
+bin
+dev
+etc
+home
+lib
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
 ubuntu@ip-10-0-15-223:~$ 
 ```
 
-```
-```
-
-sudo usermod -aG docker ubuntu
-newgrp docker
-
+```bash
 docker run alpine bash/pwd
-docker run alpine bash/ls
+```
+```
+ubuntu@ip-10-0-15-223:~$ docker run alpine pwd
+/
+ubuntu@ip-10-0-15-223:~$ docker run alpine pwd
+```
+
+```bash
 docker run alpine bash/whoami
+```
 
-
+```
+ubuntu@ip-10-0-15-223:~$ docker run alpine whoami
+root
+ubuntu@ip-10-0-15-223:~$ 
+```
 ## Working with Images
 
 docker images
