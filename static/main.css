@@ -53,6 +53,7 @@ h4 {
   opacity: 1;
 }
 input[type="submit"] {
+  justify-content: center;
   padding: 12px 0;
   color: #fff;
   background-color: #FF9900;
