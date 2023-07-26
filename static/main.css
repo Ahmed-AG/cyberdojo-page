@@ -98,14 +98,15 @@ table {
   line-height: 16px;
 
 }
-.subscribe[type=submit]{
+/* .subscribe[type=submit]{
   padding: 1px 0;
   border: 1px solid #FF9900;
   font-size: 12px;
   border-radius: 0px;
   width: 150px;
-  /* align-self: center;  */
-}
+  align-self: center;
+} */
+
 .dashboard-settings[type=submit] {
   padding: 1px 0;
   border: 1px solid #FF9900;

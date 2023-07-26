@@ -296,6 +296,17 @@ ubuntu@ip-10-0-15-223:~$
 
 ## Building a docker image
 
+vim Dockerfile
+
+```
+# Specify the base image
+FROM alpine
+
+
+
+```
+
+
 ### Adding Non-privilaged User
 
 ### DockerHub
