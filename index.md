@@ -18,6 +18,7 @@ layout: default
 
 ## <a id="resources"></a>Resources
 
+- [SANS Webcast: Deep Dive: Building Security Applications with Generative AI](https://www.sans.org/webcasts/deep-dive-building-security-applications-generative-ai/)
 - [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
 - [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications/){:target="_blank"}
 - [ACE Podcast: Ahmed Abugharbia: Upskilling your Security Teammates for Cloud and DevSecOps](https://www.sans.org/podcasts/cloud-ace/ahmed-abugharbia-upskilling-your-security-teammates-for-cloud-and-devsecops-10/){:target="_blank"}
