@@ -4,8 +4,8 @@ layout: default
 
 ## <a id="read"></a>Reading Room
 - [SANS Webcast: Deep Dive: Building Security Applications with Generative AI](https://www.sans.org/webcasts/deep-dive-building-security-applications-generative-ai/){:target="_blank"}
-- [Running Docker remotely on kali Linux server](/read/run-docker-remotley-on-kali.md)
 - [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
+- [Running Docker remotely on kali Linux server](/read/run-docker-remotley-on-kali.md)
 - [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications/){:target="_blank"}
 - [Using jq with AWS](/read/jq-for-AWS.md)
 - [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
