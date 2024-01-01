@@ -31,7 +31,7 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 
 These components work together to ensure that applications run efficiently, are scalable, and can easily be managed in a containerized environment.
 
-###### MiniKube
+#### MiniKube
 Minikube is a tool that allows you to run a single-node Kubernetes cluster locally on your computer. It's designed to enable developers to learn and experiment with Kubernetes or to develop applications locally before deploying them to a larger Kubernetes cluster.
 
 ######### Install Minikube
@@ -39,11 +39,11 @@ Minikube is a tool that allows you to run a single-node Kubernetes cluster local
 Follow the steps in the here to install and start Minikube: [https://minikube.sigs.k8s.io/docs/start/](https://minikube.sigs.k8s.io/docs/start/)
 
 
-###### kubectl
+#### kubectl
 
 `kubectl` is the command-line interface (CLI) used to interact with Kubernetes clusters. It allows users to execute commands against Kubernetes clusters to deploy applications, manage and inspect cluster resources, and perform various administrative tasks.
 
-######### Install kubectl
+##### Install kubectl
 kubectl will be configured automatically to authenticate to Minikube during the minikube installation process (check `~/.kube/config`). However, you might still need to install `kubectl` itself. To install `kubectl` Follow the steps here:[https://kubernetes.io/docs/tasks/tools/]( https://kubernetes.io/docs/tasks/tools/)
 
 ### Task 1: Basic `kubectl` commands
@@ -80,7 +80,7 @@ Notice that we can create, delete, get and describe resources. We will later wor
 - Secrets: Very similar to ConfigMaps except it is meant for secret values. We will use Secrets to store Database credentials.
 
 
-######### Create a deployment
+##### Create a deployment
 The following command will instruct K8s to create a deployment and a pod with nginx docker container image `nginx`. It will set a lot of defaults as well
 
 ```bash
@@ -148,7 +148,7 @@ Containers:
 ...
 ```
 
-######### Exploring the pods
+##### Exploring the pods
 So far we have created one `deployment` and one `pod`. Use the following to execute commands inside a specific pod (Container): `kubectl exec  <pod-name> -- <Shell Command>` 
 
 ```bash
@@ -275,7 +275,7 @@ This file will create two resources:
 - A `Deployment` for the backend
 - A `Service` for that backend
 
-###### Backend Deployment
+#### Backend Deployment
 
 First we need to configure the resource Type and some Metadata
 ```
@@ -326,7 +326,7 @@ The Next step is for us to configure the username and password for the Database.
               name: mongodb-secret
               key: mongo-passwor
 ```
-###### Creating the service
+#### Creating the service
 Finally, we are going to create service and tie it to the deployment we just created:
 ```
 apiVersion: v1
@@ -344,14 +344,14 @@ spec:
 
 Notice that we used the `app: backend-mongodb` as a selector and we exposed the same port `27017`. Notice also that we don't have anything that dictates wether we should expose access to this service externally. The default is that we will not.
 
-###### Apply the Backend
+#### Apply the Backend
 
 ```bash
 kubectl apply -f example1-mogoApp/backend-mongo-db.yaml
 ```
 
 ### Task 4: Create the Frontend
-###### ConfigMap
+#### ConfigMap
 A ConfigMap in Kubernetes is an object used to store configuration data in key-value pairs. It provides a way to decouple configuration artifacts from container images, allowing you to manage configurations separately from the application code.
 
 ConfigMaps are commonly used to store non-sensitive, configuration-specific data, such as environment variables, command-line arguments, configuration files, or other settings required by applications running in Kubernetes pods.
@@ -367,12 +367,12 @@ data:
   database_url: backend-mongodb
 ```
 
-###### Apply the ConfigMap
+#### Apply the ConfigMap
 ```bash
 kubectl apply -f example1-mogoApp/mongodb-configmap.yaml
 ```
 
-###### Frontend Deployment:
+#### Frontend Deployment:
 First, we need to set up the `Kind` as `Deployment`, the name and the same basic Replicas and Selector as before
 
 ```
@@ -421,7 +421,7 @@ The last thing we need to add in the deployment is setting up the Database serve
               key: database_url
 ```
 
-###### Frontend Service:
+#### Frontend Service:
 The service for the frontend deployment is slightly different than the service do the backend deployment. In the frontend Service we will need to expose it to the internet:
 ```
 apiVersion: v1
@@ -440,13 +440,13 @@ spec:
 ```
 Notice that we set the `type` to `LoadBalancer`, which will expose this service externally. And we had to add `nodePort: 30000` which will set the port to be used externally.
 
-###### Apply the Frontend
+#### Apply the Frontend
 ```bash
 kubectl apply -f example1-mogoApp/frontend-mongo-express.yaml
 ```
 Give it few minutes for all services to be created then move to the next step.
 
-###### Expose the Frontend using Minikube
+#### Expose the Frontend using Minikube
 ```bash
 minikube service frontend-mongo-express
 ```
