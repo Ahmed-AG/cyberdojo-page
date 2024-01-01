@@ -6,11 +6,10 @@ author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
 ---
 
-# Task 0: Set up you testing environment
-# Introduction
+### Task 0: Set up you testing environment
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform. It automates the deployment, scaling, and management of containerized applications. Originally developed by Google, Kubernetes has gained widespread adoption in managing containerized workloads and services.
 
-## Basic Kubernetes Components:
+#### Basic Kubernetes Components:
 
 - Pods: The smallest deployable unit in Kubernetes, consisting of one or more containers that share storage and networking. They're scheduled together on the same node. It is an abstraction over the container run time, Docker for
 
@@ -32,22 +31,22 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 
 These components work together to ensure that applications run efficiently, are scalable, and can easily be managed in a containerized environment.
 
-## MiniKube
+###### MiniKube
 Minikube is a tool that allows you to run a single-node Kubernetes cluster locally on your computer. It's designed to enable developers to learn and experiment with Kubernetes or to develop applications locally before deploying them to a larger Kubernetes cluster.
 
-### Install Minikube
+######### Install Minikube
 
 Follow the steps in the here to install and start Minikube: [https://minikube.sigs.k8s.io/docs/start/](https://minikube.sigs.k8s.io/docs/start/)
 
 
-## kubectl
+###### kubectl
 
 `kubectl` is the command-line interface (CLI) used to interact with Kubernetes clusters. It allows users to execute commands against Kubernetes clusters to deploy applications, manage and inspect cluster resources, and perform various administrative tasks.
 
-### Install kubectl
+######### Install kubectl
 kubectl will be configured automatically to authenticate to Minikube during the minikube installation process (check `~/.kube/config`). However, you might still need to install `kubectl` itself. To install `kubectl` Follow the steps here:[https://kubernetes.io/docs/tasks/tools/]( https://kubernetes.io/docs/tasks/tools/)
 
-# Task 1: Basic `kubectl` commands
+### Task 1: Basic `kubectl` commands
 Let us explore our Minikube environment:
 Run the help to learn about the basic commands:
 
@@ -81,7 +80,7 @@ Notice that we can create, delete, get and describe resources. We will later wor
 - Secrets: Very similar to ConfigMaps except it is meant for secret values. We will use Secrets to store Database credentials.
 
 
-### Create a deployment
+######### Create a deployment
 The following command will instruct K8s to create a deployment and a pod with nginx docker container image `nginx`. It will set a lot of defaults as well
 
 ```bash
@@ -149,7 +148,7 @@ Containers:
 ...
 ```
 
-### Exploring the pods
+######### Exploring the pods
 So far we have created one `deployment` and one `pod`. Use the following to execute commands inside a specific pod (Container): `kubectl exec  <pod-name> -- <Shell Command>` 
 
 ```bash
@@ -157,7 +156,7 @@ kubectl exec nginx-7854ff8877-6wq4n -- uname -a
 ```
 ```
 $ kubectl exec nginx-7854ff8877-6wq4n -- uname -a
-Linux nginx-7854ff8877-6wq4n 5.10.57 #1 SMP Tue Nov 7 06:51:54 UTC 2023 x86_64 GNU/Linux
+Linux nginx-7854ff8877-6wq4n 5.10.57 ###1 SMP Tue Nov 7 06:51:54 UTC 2023 x86_64 GNU/Linux
 ```
 
 We can also get a shell on a container:
@@ -166,9 +165,9 @@ kubectl exec -ti nginx-7854ff8877-6wq4n -- /bin/bash
 ```
 ```
 $ kubectl exec -ti nginx-7854ff8877-6wq4n -- /bin/bash
-root@nginx-7854ff8877-6wq4n:/# uname -a
-Linux nginx-7854ff8877-6wq4n 5.10.57 #1 SMP Tue Nov 7 06:51:54 UTC 2023 x86_64 GNU/Linux
-root@nginx-7854ff8877-6wq4n:/# 
+root@nginx-7854ff8877-6wq4n:/### uname -a
+Linux nginx-7854ff8877-6wq4n 5.10.57 ###1 SMP Tue Nov 7 06:51:54 UTC 2023 x86_64 GNU/Linux
+root@nginx-7854ff8877-6wq4n:/### 
 ```
 
 Finally, we can read logs from a pod using `kubectl logs <pod-name>`
@@ -186,17 +185,17 @@ $ kubectl logs nginx-7854ff8877-6wq4n
 /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
 /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
 /docker-entrypoint.sh: Configuration complete; ready for start up
-2023/12/23 01:34:33 [notice] 1#1: using the "epoll" event method
-2023/12/23 01:34:33 [notice] 1#1: nginx/1.25.3
-2023/12/23 01:34:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
-2023/12/23 01:34:33 [notice] 1#1: OS: Linux 5.10.57
-2023/12/23 01:34:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
-2023/12/23 01:34:33 [notice] 1#1: start worker processes
-2023/12/23 01:34:33 [notice] 1#1: start worker process 28
-2023/12/23 01:34:33 [notice] 1#1: start worker process 29
+2023/12/23 01:34:33 [notice] 1###1: using the "epoll" event method
+2023/12/23 01:34:33 [notice] 1###1: nginx/1.25.3
+2023/12/23 01:34:33 [notice] 1###1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/12/23 01:34:33 [notice] 1###1: OS: Linux 5.10.57
+2023/12/23 01:34:33 [notice] 1###1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/23 01:34:33 [notice] 1###1: start worker processes
+2023/12/23 01:34:33 [notice] 1###1: start worker process 28
+2023/12/23 01:34:33 [notice] 1###1: start worker process 29
 ```
 
-# Task 2: Building a sample application
+### Task 2: Building a sample application
 
 Kubernetes support building infrastructure using configuration files. K8s configuration files are YAML or JSON files used to define and manage Kubernetes resources, such as pods, deployments, services, etc. These files contain specifications that describe the desired state of the resources you want to create or modify within a Kubernetes cluster.
 
@@ -213,7 +212,7 @@ Here are some key components and sections commonly found in Kubernetes configura
 
 We have three configuration files being used for this tutorial. You can find them [here](./example1-mongoApp/)
 
-# Build a sample application
+### Build a sample application
 In this example, we will build a sample application that consists of the following:
 1. A MongoDB as the `Backend`. Accessible only for the Frontend and consists of one Pod
 2. A Mongo-express as the `Frontend`. Accessible from the outside and consists of one Pod
@@ -226,7 +225,7 @@ To do that, we will use three different configuration files as follows:
 
 We will begin with creating the secret.
 
-# Creating the secret:
+### Creating the secret:
 `Secrets` are a way to securely store sensitive information, such as passwords, tokens, or keys. They're designed to help manage sensitive data access within Kubernetes deployments. Secrets provide a layer of abstraction and security by encoding and storing sensitive information separately from pod definitions or application code.
 
 Kubernetes secrets can be used by referencing them in pods or containers, allowing applications to access sensitive information without exposing it directly within the code or configuration files. Secrets are stored within the cluster `etcd` and can be accessed by authorized entities.
@@ -269,14 +268,14 @@ mongo-password:  9 bytes
 mongo-username:  9 bytes
 ```
 
-# Task 3: Create the Backend
+### Task 3: Create the Backend
 
 The full configuration file is [here](./example1-mongoApp/backend-mongo-db.yaml). But let us dissect it.
 This file will create two resources:
 - A `Deployment` for the backend
 - A `Service` for that backend
 
-## Backend Deployment
+###### Backend Deployment
 
 First we need to configure the resource Type and some Metadata
 ```
@@ -327,7 +326,7 @@ The Next step is for us to configure the username and password for the Database.
               name: mongodb-secret
               key: mongo-passwor
 ```
-## Creating the service
+###### Creating the service
 Finally, we are going to create service and tie it to the deployment we just created:
 ```
 apiVersion: v1
@@ -345,14 +344,14 @@ spec:
 
 Notice that we used the `app: backend-mongodb` as a selector and we exposed the same port `27017`. Notice also that we don't have anything that dictates wether we should expose access to this service externally. The default is that we will not.
 
-## Apply the Backend
+###### Apply the Backend
 
 ```bash
 kubectl apply -f example1-mogoApp/backend-mongo-db.yaml
 ```
 
-# Task 4: Create the Frontend
-## ConfigMap
+### Task 4: Create the Frontend
+###### ConfigMap
 A ConfigMap in Kubernetes is an object used to store configuration data in key-value pairs. It provides a way to decouple configuration artifacts from container images, allowing you to manage configurations separately from the application code.
 
 ConfigMaps are commonly used to store non-sensitive, configuration-specific data, such as environment variables, command-line arguments, configuration files, or other settings required by applications running in Kubernetes pods.
@@ -368,12 +367,12 @@ data:
   database_url: backend-mongodb
 ```
 
-## Apply the ConfigMap
+###### Apply the ConfigMap
 ```bash
 kubectl apply -f example1-mogoApp/mongodb-configmap.yaml
 ```
 
-## Frontend Deployment:
+###### Frontend Deployment:
 First, we need to set up the `Kind` as `Deployment`, the name and the same basic Replicas and Selector as before
 
 ```
@@ -422,7 +421,7 @@ The last thing we need to add in the deployment is setting up the Database serve
               key: database_url
 ```
 
-## Frontend Service:
+###### Frontend Service:
 The service for the frontend deployment is slightly different than the service do the backend deployment. In the frontend Service we will need to expose it to the internet:
 ```
 apiVersion: v1
@@ -441,13 +440,13 @@ spec:
 ```
 Notice that we set the `type` to `LoadBalancer`, which will expose this service externally. And we had to add `nodePort: 30000` which will set the port to be used externally.
 
-## Apply the Frontend
+###### Apply the Frontend
 ```bash
 kubectl apply -f example1-mogoApp/frontend-mongo-express.yaml
 ```
 Give it few minutes for all services to be created then move to the next step.
 
-## Expose the Frontend using Minikube
+###### Expose the Frontend using Minikube
 ```bash
 minikube service frontend-mongo-express
 ```
@@ -459,7 +458,7 @@ You can access the frontend by pointing your browser to the IP address that was 
 User `admin` and `pass` to login to Mongo-Express.
 Congratulations! Your Application is built!
 
-# Ingress
+### Ingress
 
 ```bash
 minikube addons enable ingress
