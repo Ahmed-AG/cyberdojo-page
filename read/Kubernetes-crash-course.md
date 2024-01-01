@@ -89,7 +89,7 @@ Notice that we can create, delete, get and describe resources. We will later wor
 - Secrets: Very similar to ConfigMaps except it is meant for secret values. We will use Secrets to store Database credentials.
 
 
-##### Create a deployment
+#### Create a deployment
 The following command will instruct K8s to create a deployment and a pod with nginx docker container image `nginx`. It will set a lot of defaults as well
 
 ```bash
