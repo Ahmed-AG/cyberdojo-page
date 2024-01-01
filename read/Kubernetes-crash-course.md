@@ -210,7 +210,7 @@ Here are some key components and sections commonly found in Kubernetes configura
 - Selectors: Often used in conjunction with services or controllers to define how resources are associated or targeted.
 - Annotations: Additional information or metadata that can be added to the resource for various purposes like documentation, tooling, etc.
 
-We have three configuration files being used for this tutorial. You can find them [here](./example1-mongoApp/)
+We have three configuration files being used for this tutorial. You can find them [here](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/)
 
 ### Build a sample application
 In this example, we will build a sample application that consists of the following:
@@ -218,9 +218,9 @@ In this example, we will build a sample application that consists of the followi
 2. A Mongo-express as the `Frontend`. Accessible from the outside and consists of one Pod
 
 To do that, we will use three different configuration files as follows:
-- [./example1-mongoApp/backend-mongo-db.yaml](./example1-mongoApp/backend-mongo-db.yaml): Will create a Deployment and a Service for the backend
-- [./example1-mongoApp/frontend-mongo-express.yaml](./example1-mongoApp/frontend-mongo-express.yaml): Will create a Deployment and a Service for the frontend
-- [./example1-mongoApp/mongodb-configmap.yaml](./example1-mongoApp/mongodb-configmap.yaml): Will create ConfigMap that will have the backend's name
+- [backend-mongo-db.yaml](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/backend-mongo-db.yaml): Will create a Deployment and a Service for the backend
+- [frontend-mongo-express.yaml](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/frontend-mongo-express.yaml): Will create a Deployment and a Service for the frontend
+- [mongodb-configmap.yaml](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/mongodb-configmap.yaml): Will create ConfigMap that will have the backend's name
 - Finally, we will create `sectret` that has the Database user name and password. We will do that though the command line
 
 We will begin with creating the secret.
@@ -270,7 +270,7 @@ mongo-username:  9 bytes
 
 ### Task 3: Create the Backend
 
-The full configuration file is [here](./example1-mongoApp/backend-mongo-db.yaml). But let us dissect it.
+The full configuration file is [here](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/backend-mongo-db.yaml). But let us dissect it.
 This file will create two resources:
 - A `Deployment` for the backend
 - A `Service` for that backend
@@ -446,7 +446,7 @@ kubectl apply -f example1-mogoApp/frontend-mongo-express.yaml
 ```
 Give it few minutes for all services to be created then move to the next step.
 
-#### Expose the Frontend using Minikube
+### Expose the Frontend using Minikube
 ```bash
 minikube service frontend-mongo-express
 ```
