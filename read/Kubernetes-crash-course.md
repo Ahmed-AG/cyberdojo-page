@@ -490,4 +490,4 @@ sudo -- sh -c "echo '$IP my-frontend.com' >> /etc/hosts"
 ``` -->
 
 ### References:
-- A great resource for learning Kubernetes is this 4-hour [youtube video](https://www.youtube.com/watch?v=X48VuDVv0do&t=3167s) by [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
+- A great resource for learning Kubernetes is this 4-hour [Youtube video](https://www.youtube.com/watch?v=X48VuDVv0do&t=3167s) by [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
