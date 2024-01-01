@@ -5,8 +5,7 @@ date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
 ---
-
-### Task 0: Set up you testing environment
+### Introduction
 Kubernetes, often abbreviated as K8s, is an open-source container orchestration platform. It automates the deployment, scaling, and management of containerized applications. Originally developed by Google, Kubernetes has gained widespread adoption in managing containerized workloads and services.
 
 #### Basic Kubernetes Components:
@@ -31,6 +30,8 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 
 These components work together to ensure that applications run efficiently, are scalable, and can easily be managed in a containerized environment.
 
+### Task 0: Set up you testing environment
+
 #### MiniKube
 Minikube is a tool that allows you to run a single-node Kubernetes cluster locally on your computer. It's designed to enable developers to learn and experiment with Kubernetes or to develop applications locally before deploying them to a larger Kubernetes cluster.
 
@@ -45,6 +46,14 @@ Follow the steps in the here to install and start Minikube: [https://minikube.si
 
 ##### Install kubectl
 kubectl will be configured automatically to authenticate to Minikube during the minikube installation process (check `~/.kube/config`). However, you might still need to install `kubectl` itself. To install `kubectl` Follow the steps here:[https://kubernetes.io/docs/tasks/tools/]( https://kubernetes.io/docs/tasks/tools/)
+
+#### Clone examples repository
+
+Once you have your environment ready, clone the following repository
+
+```bash
+git clone https://github.com/Ahmed-AG/k8s-quick-start-tutorial.git
+```
 
 ### Task 1: Basic `kubectl` commands
 Let us explore our Minikube environment:
