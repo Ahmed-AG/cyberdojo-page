@@ -174,9 +174,9 @@ kubectl exec -ti nginx-7854ff8877-6wq4n -- /bin/bash
 ```
 ```
 $ kubectl exec -ti nginx-7854ff8877-6wq4n -- /bin/bash
-root@nginx-7854ff8877-6wq4n:/### uname -a
+root@nginx-7854ff8877-6wq4n:/# uname -a
 Linux nginx-7854ff8877-6wq4n 5.10.57 ###1 SMP Tue Nov 7 06:51:54 UTC 2023 x86_64 GNU/Linux
-root@nginx-7854ff8877-6wq4n:/### 
+root@nginx-7854ff8877-6wq4n:/#
 ```
 
 Finally, we can read logs from a pod using `kubectl logs <pod-name>`
