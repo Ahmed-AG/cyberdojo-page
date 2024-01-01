@@ -467,7 +467,7 @@ You can access the frontend by pointing your browser to the IP address that was 
 User `admin` and `pass` to login to Mongo-Express.
 Congratulations! Your Application is built!
 
-### Ingress
+<!-- ### Ingress
 
 ```bash
 minikube addons enable ingress
@@ -487,4 +487,4 @@ IP=$(kubectl get ingress -o json |jq -r .items[].status.loadBalancer.ingress[].i
 echo $IP
 sudo echo  >> /etc/hosts
 sudo -- sh -c "echo '$IP my-frontend.com' >> /etc/hosts"
-```
+``` -->
