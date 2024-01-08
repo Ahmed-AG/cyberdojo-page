@@ -148,4 +148,4 @@ $ kubectl logs nginx-7854ff8877-6wq4n
 ```
 
 ### Next
-- [Task 2: Building a sample application](/read/Kubernetes-crash-course/task2.md)
+[Task 2: Building a sample application](/read/Kubernetes-crash-course/task2.html)

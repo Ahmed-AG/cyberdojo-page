@@ -79,3 +79,6 @@ Notice that we used the `app: backend-mongodb` as a selector and we exposed the 
 ```bash
 kubectl apply -f example1-mogoApp/backend-mongo-db.yaml
 ```
+
+### Next
+[Task 3: Create the Frontend](/read/Kubernetes-crash-course/task4.html)
