@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## <a id="read"></a>Reading Room
+## <a id="read"></a>Blog Posts
 - [SANS Webcast: Deep Dive: Building Security Applications with Generative AI](https://www.sans.org/webcasts/deep-dive-building-security-applications-generative-ai/){:target="_blank"}
 - [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
 - [Running Docker remotely on kali Linux server](/read/run-docker-remotley-on-kali.md)
