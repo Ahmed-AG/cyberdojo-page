@@ -112,3 +112,6 @@ You can access the frontend by pointing your browser to the IP address that was 
 ![Firefox-mongoexpress](images/screenshot-firefox-mongoexpress.png)
 User `admin` and `pass` to login to Mongo-Express.
 Congratulations! Your Application is built!
+
+### References:
+- A great resource for learning Kubernetes is this 4-hour [Youtube video](https://www.youtube.com/watch?v=X48VuDVv0do&t=3167s) by [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
