@@ -1,3 +1,11 @@
+---
+layout: reads
+title:  "Kubernetes Crash Course - Task 3"
+date:   1-1-2024
+author: "Ahmed Abugharbia"
+author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
+---
+
 ### Task 3: Create the Backend
 
 The full configuration file is [here](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/backend-mongo-db.yaml). But let us dissect it.

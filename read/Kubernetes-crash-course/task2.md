@@ -1,3 +1,10 @@
+---
+layout: reads
+title:  "Kubernetes Crash Course - Task 2"
+date:   1-1-2024
+author: "Ahmed Abugharbia"
+author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
+---
 
 ### Task 2: Building a sample application
 

@@ -1,3 +1,11 @@
+---
+layout: reads
+title:  "Kubernetes Crash Course - Task 1"
+date:   1-1-2024
+author: "Ahmed Abugharbia"
+author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
+---
+
 ### Task 1: Basic `kubectl` commands
 Let us explore our Minikube environment:
 Run the help to learn about the basic commands:

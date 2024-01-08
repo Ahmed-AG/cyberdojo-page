@@ -1,3 +1,10 @@
+---
+layout: reads
+title:  "Kubernetes Crash Course - Task 0"
+date:   1-1-2024
+author: "Ahmed Abugharbia"
+author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
+---
 
 ### Task 0: Set up you testing environment
 
