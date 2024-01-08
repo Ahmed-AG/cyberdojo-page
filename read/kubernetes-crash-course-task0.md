@@ -31,4 +31,4 @@ git clone https://github.com/Ahmed-AG/k8s-quick-start-tutorial.git
 ```
 
 ### Next
-[Task 1: Basic `kubectl` commands](/read/kubernetes-crash-course-task1.html)
+[Task 1: Basic kubectl commands](/read/kubernetes-crash-course-task1.html)
