@@ -30,6 +30,8 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 
 These components work together to ensure that applications run efficiently, are scalable, and can easily be managed in a containerized environment.
 
+---
+
 ### Task 0: Set up you testing environment
 
 #### MiniKube
