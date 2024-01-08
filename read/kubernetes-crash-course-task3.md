@@ -89,4 +89,4 @@ kubectl apply -f example1-mogoApp/backend-mongo-db.yaml
 ```
 
 ### Next
-[Task 3: Create the Frontend](/read/Kubernetes-crash-course/task4.html)
+[Task 3: Create the Frontend](/read/kubernetes-crash-course-task4.html)

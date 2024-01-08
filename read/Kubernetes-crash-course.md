@@ -32,9 +32,9 @@ These components work together to ensure that applications run efficiently, are 
 
 ---
 ### Tasks:
-- [Task 0:  Set up you testing environment](/read/Kubernetes-crash-course/task0.html)
-- [Task 1: Basic kubectl commands](/read/Kubernetes-crash-course/task1.html)
-- [Task 2: Building a sample application](/read/Kubernetes-crash-course/task2.html)
-- [Task 3: Create the Backend](/read/Kubernetes-crash-course/task3.html)
-- [Task 4: Create the Frontend](/read/Kubernetes-crash-course/task4.html)
-<!-- - [Task 5: ](/read/Kubernetes-crash-course/task5.md) -->
+- [Task 0:  Set up you testing environment](/read/kubernetes-crash-course-task0.html)
+- [Task 1: Basic kubectl commands](/read/kubernetes-crash-course-task1.html)
+- [Task 2: Building a sample application](/read/kubernetes-crash-course-task2.html)
+- [Task 3: Create the Backend](/read/kubernetes-crash-course-task3.html)
+- [Task 4: Create the Frontend](/read/kubernetes-crash-course-task4.html)
+<!-- - [Task 5: ](/read/kubernetes-crash-course-task5.md) -->
