@@ -57,6 +57,8 @@ Once you have your environment ready, clone the following repository
 git clone https://github.com/Ahmed-AG/k8s-quick-start-tutorial.git
 ```
 
+---
+
 ### Task 1: Basic `kubectl` commands
 Let us explore our Minikube environment:
 Run the help to learn about the basic commands:
@@ -206,6 +208,8 @@ $ kubectl logs nginx-7854ff8877-6wq4n
 2023/12/23 01:34:33 [notice] 1###1: start worker process 29
 ```
 
+---
+
 ### Task 2: Building a sample application
 
 Kubernetes support building infrastructure using configuration files. K8s configuration files are YAML or JSON files used to define and manage Kubernetes resources, such as pods, deployments, services, etc. These files contain specifications that describe the desired state of the resources you want to create or modify within a Kubernetes cluster.
@@ -278,6 +282,8 @@ Data
 mongo-password:  9 bytes
 mongo-username:  9 bytes
 ```
+
+---
 
 ### Task 3: Create the Backend
 
@@ -360,6 +366,8 @@ Notice that we used the `app: backend-mongodb` as a selector and we exposed the 
 ```bash
 kubectl apply -f example1-mogoApp/backend-mongo-db.yaml
 ```
+
+---
 
 ### Task 4: Create the Frontend
 #### ConfigMap
