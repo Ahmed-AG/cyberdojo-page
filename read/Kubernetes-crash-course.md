@@ -37,4 +37,7 @@ These components work together to ensure that applications run efficiently, are 
 - [Task 2: Building a sample application](/read/kubernetes-crash-course-task2.html)
 - [Task 3: Create the Backend](/read/kubernetes-crash-course-task3.html)
 - [Task 4: Create the Frontend](/read/kubernetes-crash-course-task4.html)
+- [Task 5: Namespaces](/read/kubernetes-crash-course-task5.html)
+- [Task 6: Network Policies](/read/kubernetes-crash-course-task6.html)
+
 <!-- - [Task 5: ](/read/kubernetes-crash-course-task5.md) -->

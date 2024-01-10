@@ -155,5 +155,6 @@ kubectl delete -f example1-mongoApp/backend-mongo-db.yaml --namespace $deploymen
 kubectl delete -f example1-mongoApp/mongodb-configmap.yaml --namespace $deployment
 kubectl delete -f example1-mongoApp/frontend-mongo-express.yaml --namespace $deployment
 ```
-### References:
-- A great resource for learning Kubernetes is this 4-hour [Youtube video](https://www.youtube.com/watch?v=X48VuDVv0do&t=3167s) by [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
+
+### Next:
+[Task 6: Network Policies](/read/kubernetes-crash-course-task6.html)
