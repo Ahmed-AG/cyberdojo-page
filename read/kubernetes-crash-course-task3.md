@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "Kubernetes Crash Course - Task 3: Create the Backend"
+title:  "K8s CS - Task 3: Create the Backend"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"

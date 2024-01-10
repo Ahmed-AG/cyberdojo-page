@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "Kubernetes Crash Course - Task 6: Network Policies"
+title:  "K8s CS - Task 6: Network Policies"
 date:   1-9-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
