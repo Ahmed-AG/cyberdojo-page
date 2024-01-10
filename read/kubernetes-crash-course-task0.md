@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "K8s Crash Course - Task 0: Set up you testing environment"
+title:  "K8s CS - Task 0: Set up you testing environment"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
