@@ -154,12 +154,13 @@ Let us apply this `network-policy` on the `green` namespace for this example:
 kubectl apply -f example1-mongoApp/network-policy.yaml -n green
 ```
 
-Try to access the Frontend pod on the blue namespace and try to ping the Backend on the blue, the Backend on the green, and the Frontend on the green:
+Try to access the Frontend pod on the blue namespace and try to ping the Backend on the blue, the Frontend on the green, and the Backend on the green
 
 ```bash
 $ kubectl exec -ti frontend-mongo-express-deployment-db9c8bd6b-rgw64 -n blue -- /bin/bash
 ```
-```
+Ping the Backend on the blue Namespace:
+```bash
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.80
 PING 10.244.120.80 (10.244.120.80): 56 data bytes
 64 bytes from 10.244.120.80: seq=0 ttl=63 time=0.327 ms
@@ -169,14 +170,8 @@ PING 10.244.120.80 (10.244.120.80): 56 data bytes
 2 packets transmitted, 2 packets received, 0% packet loss
 round-trip min/avg/max = 0.096/0.211/0.327 ms
 ```
-```
-frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.82
-PING 10.244.120.82 (10.244.120.82): 56 data bytes
-^C
---- 10.244.120.82 ping statistics ---
-4 packets transmitted, 0 packets received, 100% packet loss
-```
-```
+The Frontend on the green Namespace:
+```bash
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.81
 PING 10.244.120.81 (10.244.120.81): 56 data bytes
 64 bytes from 10.244.120.81: seq=0 ttl=63 time=0.511 ms
@@ -186,11 +181,18 @@ PING 10.244.120.81 (10.244.120.81): 56 data bytes
 --- 10.244.120.81 ping statistics ---
 3 packets transmitted, 3 packets received, 0% packet loss
 round-trip min/avg/max = 0.084/0.232/0.511 ms
-frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# exit
 $
 ```
+The Backend on the green Namespace:
+```bash
+frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.82
+PING 10.244.120.82 (10.244.120.82): 56 data bytes
+^C
+--- 10.244.120.82 ping statistics ---
+4 packets transmitted, 0 packets received, 100% packet loss
+```
 
-Great! Backend seems to be protected now. Let us see if the Frontend on the green namespace can access the Backend on the green namespace (Same Namespace):
+Great! Backend on the green Namespace seems to be protected now. Let us see if the Frontend on the green namespace can access the Backend on the green namespace (Same Namespace):
 ```bash
 kubectl exec -ti frontend-mongo-express-deployment-db9c8bd6b-hkfnv -n green -- /bin/bash
 frontend-mongo-express-deployment-db9c8bd6b-hkfnv:/app# ping 10.244.120.82 -c 3
