@@ -158,6 +158,8 @@ Try to access the Frontend pod on the blue namespace and try to ping the Backend
 
 ```bash
 $ kubectl exec -ti frontend-mongo-express-deployment-db9c8bd6b-rgw64 -n blue -- /bin/bash
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.80
 PING 10.244.120.80 (10.244.120.80): 56 data bytes
 64 bytes from 10.244.120.80: seq=0 ttl=63 time=0.327 ms
@@ -166,11 +168,15 @@ PING 10.244.120.80 (10.244.120.80): 56 data bytes
 --- 10.244.120.80 ping statistics ---
 2 packets transmitted, 2 packets received, 0% packet loss
 round-trip min/avg/max = 0.096/0.211/0.327 ms
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.82
 PING 10.244.120.82 (10.244.120.82): 56 data bytes
 ^C
 --- 10.244.120.82 ping statistics ---
 4 packets transmitted, 0 packets received, 100% packet loss
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.81
 PING 10.244.120.81 (10.244.120.81): 56 data bytes
 64 bytes from 10.244.120.81: seq=0 ttl=63 time=0.511 ms
