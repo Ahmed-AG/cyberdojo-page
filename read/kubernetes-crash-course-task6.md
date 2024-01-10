@@ -119,7 +119,7 @@ minikube stop
 minikube start --cni calico
 ```
 
-This will enable network policies. Once Minikube is restarted we will apply [./example1-mongoApp/network-policy.yaml](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/network-policy.yaml). Let us examine the major sections:
+This will enable network policies. Once Minikube is restarted we will apply [./example1-mongoApp/network-policy.yaml](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/example1-mongoApp/network-policy.yaml){:target="_blank"}. Let us examine the major sections:
 
 ```
 apiVersion: networking.k8s.io/v1
