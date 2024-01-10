@@ -147,7 +147,7 @@ The above section dictates that we will create a `network-policy` resource that 
             matchLabels:
               app: frontend-mongo-express
 ```
-Note that the actual file have many other commented out sections. feel free to explore those.
+Note that the actual file has many other commented out sections. feel free to explore those.
 Let us apply this `network-policy` on the `green` namespace for this example:
 
 ```bash
