@@ -181,7 +181,6 @@ PING 10.244.120.81 (10.244.120.81): 56 data bytes
 --- 10.244.120.81 ping statistics ---
 3 packets transmitted, 3 packets received, 0% packet loss
 round-trip min/avg/max = 0.084/0.232/0.511 ms
-$
 ```
 The Backend on the green Namespace:
 ```bash
