@@ -196,6 +196,5 @@ frontend-mongo-express-deployment-db9c8bd6b-hkfnv:/app# exit
 Sounds great! It seems that you have successfully protected the Backend on the green namespace deployment! Congratulation!
 
 ### References:
+- [https://kubernetes.io/docs/concepts/services-networking/network-policies/](https://kubernetes.io/docs/concepts/services-networking/network-policies/) 
 - A great resource for learning Kubernetes is this 4-hour [Youtube video](https://www.youtube.com/watch?v=X48VuDVv0do&t=3167s) by [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
-- https://kubernetes.io/docs/concepts/services-networking/network-policies/
-- 
