@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "K8s CS - Task 2: Building a sample application"
+title:  "K8s CC - Task 2: Building a sample application"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"

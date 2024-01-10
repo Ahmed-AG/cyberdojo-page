@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "K8s CS - Task 1: Basic kubectl commands"
+title:  "K8s CC - Task 1: Basic kubectl commands"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"

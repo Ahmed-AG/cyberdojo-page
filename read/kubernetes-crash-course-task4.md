@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "K8s CS - Task 4: Create the Frontend"
+title:  "K8s CC - Task 4: Create the Frontend"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"

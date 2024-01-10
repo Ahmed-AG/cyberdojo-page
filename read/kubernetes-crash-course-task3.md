@@ -1,6 +1,6 @@
 ---
 layout: reads
-title:  "K8s CS - Task 3: Create the Backend"
+title:  "K8s CC - Task 3: Create the Backend"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
@@ -38,7 +38,7 @@ spec:
 ```
 In the above code we set the replicas to `1` because we need one Pod. and we also set the selector to select the label `app: backend-mongodb`
 
-Next, we need to set the container specification. We have an `Container Image` that is already configured with MongoDB. We will se that, and we will also set the default port.
+Next, we need to set the container specification. We have an `Container Image` that is already configured with MongoDB. We will set that, and we will also set the default port.
 ```
     spec:
       containers:
@@ -47,7 +47,7 @@ Next, we need to set the container specification. We have an `Container Image` t
         ports:
         - containerPort: 27017
 ```
-The Next step is for us to configure the username and password for the Database. We can do that by setting the environment variables `MONGO_INITDB_ROOT_USERNAME` and `MONGO_INITDB_ROOT_PASSWORD` inside the container. The values of those are being referenced from the `mongodb-secret` secret we set earlier.
+The next step is for us to configure the username and password for the Database. We can do that by setting the environment variables `MONGO_INITDB_ROOT_USERNAME` and `MONGO_INITDB_ROOT_PASSWORD` inside the container. The values of those are being referenced from the `mongodb-secret` secret we set earlier.
 
 ```
         env:
