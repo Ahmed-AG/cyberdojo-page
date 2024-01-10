@@ -23,7 +23,7 @@ metadata:
     app: backend-mongodb
 ```
 
-Above sets a name for this deployment and also a label that will be used to reference this deployment later on.
+The above sets a name for this deployment and also a label that will be used to reference this deployment later on.
 Next,  we need to set some specifications:
 ```
 spec:
