@@ -1,17 +1,16 @@
 ---
 layout: reads
-title:  "Kubernetes Crash Course - Task 4"
+title:  "Kubernetes Crash Course - Task 4: Create the Frontend"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
 ---
-### Task 4: Create the Frontend
 #### ConfigMap
 A ConfigMap in Kubernetes is an object used to store configuration data in key-value pairs. It provides a way to decouple configuration artifacts from container images, allowing you to manage configurations separately from the application code.
 
 ConfigMaps are commonly used to store non-sensitive, configuration-specific data, such as environment variables, command-line arguments, configuration files, or other settings required by applications running in Kubernetes pods.
 
-We need to configure the mongodb-configmap to store the `database_url: backend-mongodb` value for reference in the Frontend. [Full file is here](./example1-mongoApp/mongodb-configmap.yaml):
+We need to configure the mongodb-configmap to store the `database_url: backend-mongodb` value for reference in the Frontend. [Full file is here](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/tree/main/example1-mongoApp):
 
 ```
 apiVersion: v1

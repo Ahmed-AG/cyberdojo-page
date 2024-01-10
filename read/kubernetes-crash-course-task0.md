@@ -1,11 +1,10 @@
 ---
 layout: reads
-title:  "Kubernetes Crash Course - Task 0"
+title:  "Kubernetes Crash Course - Task 0: Set up you testing environment"
 date:   1-1-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
 ---
-### Task 0: Set up you testing environment
 
 #### MiniKube
 Minikube is a tool that allows you to run a single-node Kubernetes cluster locally on your computer. It's designed to enable developers to learn and experiment with Kubernetes or to develop applications locally before deploying them to a larger Kubernetes cluster.

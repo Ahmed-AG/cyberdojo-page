@@ -1,17 +1,15 @@
 ---
 layout: reads
-title:  "Kubernetes Crash Course - Task 6"
+title:  "Kubernetes Crash Course - Task 6: Network Policies"
 date:   1-9-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
 ---
 
-### Task 6: Network Policies
-
 So far we have created two different projects, we have created a project in a `blue` namespace and another in the `green` namespace. What if we needed to control network traffic between services or pods?
 Let us do the following
 
-make sure you have two deployments `blue` and `green`
+Make sure you have two deployments `blue` and `green`
 ```bash
 DEPLOYMENT=blue
 kubectl create secret generic mongodb-secret --from-literal=mongo-username=mongouser --from-literal=mongo-password=mongopass --namespace $DEPLOYMENT

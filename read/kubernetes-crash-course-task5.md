@@ -1,12 +1,11 @@
 ---
 layout: reads
-title:  "Kubernetes Crash Course - Task 5"
+title:  "Kubernetes Crash Course - Task 5: Namespaces"
 date:   1-9-2024
 author: "Ahmed Abugharbia"
 author_link: "https://www.linkedin.com/in/ahmadabugharbieh/"
 ---
 
-### Task 5: Namespaces
 `Namespaces` are a way to divide cluster resources between multiple users, teams, or projects. They provide a scope for Kubernetes objects, such as pods, services, and replication controllers, within a cluster.
 
 Namespaces are useful for organizing and isolating resources, allowing different teams or projects to operate independently within the same Kubernetes cluster without interfering with each other. They help in avoiding naming collisions and provide a level of resource isolation and security.
@@ -33,7 +32,7 @@ kubectl get all -n default
 ```
 
 #### Blue/Green Deployment
-There are many way for us to use namespaces, we can specify the namespace inside YAML configuration file itself under `metadata`:
+There are many ways for us to use namespaces, we can specify the namespace inside YAML configuration file itself under `metadata`:
 ```
 apiVersion: apps/v1
 kind: Deployment
@@ -121,7 +120,7 @@ kubectl apply -f example1-mongoApp/frontend-mongo-express-green.yaml --namespace
 sleep 60
 minikube service frontend-mongo-express -n $deployment
 ```
-To verify your work you can use your browser or run:
+To verify your work, you can use your browser to view the application. You can get the DNS names or IP addresses but looking at the services:
 ```bash
 kubectl get services -n blue
 kubectl get services -n green
