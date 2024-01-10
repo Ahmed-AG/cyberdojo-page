@@ -21,7 +21,6 @@ kubectl apply -f example1-mongoApp/frontend-mongo-express.yaml --namespace $DEPL
 sleep 60
 minikube service frontend-mongo-express -n $DEPLOYMENT
 
-
 DEPLOYMENT=green
 kubectl create secret generic mongodb-secret --from-literal=mongo-username=mongouser --from-literal=mongo-password=mongopass --namespace $DEPLOYMENT
 kubectl apply -f example1-mongoApp/backend-mongo-db.yaml --namespace $DEPLOYMENT
@@ -48,7 +47,7 @@ backend-mongodb-deployment-97bb5c688-mzx96          1/1     Running   2 (148m ag
 frontend-mongo-express-deployment-db9c8bd6b-hkfnv   1/1     Running   2 (148m ago)   8h    10.244.120.81   minikube   <none>           <none>
 ```
 
-This should show you the IP addresses of all of your pods. Once our environment is built, let us access the front end on the `blue` deployment then try to end the other pods
+This should show you the IP addresses of all of your pods. Once our environment is built, let us access the front end on the `blue` deployment then try to ping the other pods:
 ```bash
 kubectl exec -ti <POD NAME> -n blue -- /bin/bash
 ifconfig
@@ -59,6 +58,8 @@ ping <Green Backend IP>
 
 ```
 $ kubectl exec -ti frontend-mongo-express-deployment-db9c8bd6b-rgw64 -n blue -- /bin/bash
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ifconfig
 eth0      Link encap:Ethernet  HWaddr 7E:CA:CE:ED:C2:76  
           inet addr:10.244.120.79  Bcast:0.0.0.0  Mask:255.255.255.255
@@ -75,7 +76,8 @@ lo        Link encap:Local Loopback
           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
           collisions:0 txqueuelen:1000 
           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
-
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.80 -c 3
 PING 10.244.120.80 (10.244.120.80): 56 data bytes
 64 bytes from 10.244.120.80: seq=0 ttl=63 time=0.124 ms
@@ -85,6 +87,8 @@ PING 10.244.120.80 (10.244.120.80): 56 data bytes
 --- 10.244.120.80 ping statistics ---
 3 packets transmitted, 3 packets received, 0% packet loss
 round-trip min/avg/max = 0.113/0.125/0.140 ms
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.82 -c 3
 PING 10.244.120.82 (10.244.120.82): 56 data bytes
 64 bytes from 10.244.120.82: seq=0 ttl=63 time=0.252 ms
@@ -94,6 +98,8 @@ PING 10.244.120.82 (10.244.120.82): 56 data bytes
 --- 10.244.120.82 ping statistics ---
 3 packets transmitted, 3 packets received, 0% packet loss
 round-trip min/avg/max = 0.086/0.153/0.252 ms
+```
+```
 frontend-mongo-express-deployment-db9c8bd6b-rgw64:/app# ping 10.244.120.81 -c 3
 PING 10.244.120.81 (10.244.120.81): 56 data bytes
 64 bytes from 10.244.120.81: seq=0 ttl=63 time=0.623 ms
