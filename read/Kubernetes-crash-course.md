@@ -10,7 +10,7 @@ Kubernetes, often abbreviated as K8s, is an open-source container orchestration 
 
 #### Basic Kubernetes Components:
 
-- Pods: The smallest deployable unit in Kubernetes, consisting of one or more containers that share storage and networking. They're scheduled together on the same node. It is an abstraction over the container run time, Docker for
+- **Pods**: The smallest deployable unit in Kubernetes, consisting of one or more containers that share storage and networking. They're scheduled together on the same node. It is an abstraction over the container run time, Docker for
 
 - **Nodes:** These are the individual machines (physical or virtual) in a Kubernetes cluster where containers are deployed. Each node has services to run applications in the form of pods.
 
@@ -40,4 +40,3 @@ These components work together to ensure that applications run efficiently, are 
 - [Task 5: Namespaces](/read/kubernetes-crash-course-task5.html)
 - [Task 6: Network Policies](/read/kubernetes-crash-course-task6.html)
 
-<!-- - [Task 5: ](/read/kubernetes-crash-course-task5.md) -->
