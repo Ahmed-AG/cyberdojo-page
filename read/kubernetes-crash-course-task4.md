@@ -112,7 +112,7 @@ You can access the frontend by pointing your browser to the IP address that was 
 
 ![Firefox-mongoexpress](https://raw.githubusercontent.com/Ahmed-AG/k8s-quick-start-tutorial/main/images/screenshot-firefox-mongoexpress.png){:width="80%"}
 
-User `admin` and `pass` to login to Mongo-Express.
+Use `admin` and `pass` to login to Mongo-Express.
 Congratulations! Your Application is built!
 
 ### Next
