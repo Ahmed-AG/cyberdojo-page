@@ -110,7 +110,7 @@ The above command will expose `frontend-mongo-express` service and give it a pub
 
 You can access the frontend by pointing your browser to the IP address that was assigned. Notice that Mongo-express allows you to interact with the backend which is the MongoDB server (Service)
 
-[Firefox-mongoexpress](https://raw.githubusercontent.com/Ahmed-AG/k8s-quick-start-tutorial/main/images/screenshot-firefox-mongoexpress.png){:width="80%" text-align="center"}
+[Firefox-mongoexpress](https://raw.githubusercontent.com/Ahmed-AG/k8s-quick-start-tutorial/main/images/screenshot-firefox-mongoexpress.png){:width="80%"}
 
 User `admin` and `pass` to login to Mongo-Express.
 Congratulations! Your Application is built!
