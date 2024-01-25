@@ -10,7 +10,7 @@ Kubernetes support building infrastructure using configuration files. K8s config
 
 Here are some key components and sections commonly found in Kubernetes configuration files:
 - API Version: Specifies the version of the Kubernetes API that the object uses.
--Kind: Defines the type of Kubernetes resource being created, such as Pod, Deployment, Service, etc.
+- Kind: Defines the type of Kubernetes resource being created, such as Pod, Deployment, Service, etc.
 - Metadata: Contains information like the name, labels, and annotations for the resource.
 - Spec: Describes the desired state of the resource. This section varies based on the resource type. For example:
   - Pods: Contains specifications for containers, volumes, and other settings.
