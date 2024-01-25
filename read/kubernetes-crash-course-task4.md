@@ -108,7 +108,7 @@ The above command will expose `frontend-mongo-express` service and give it a pub
 ![Minikube exposing frontend-mongo-express](https://raw.githubusercontent.com/Ahmed-AG/k8s-quick-start-tutorial/main/images/screenshot-minikube-expose.png?raw=true)
 
 You can access the frontend by pointing your browser to the IP address that was assigned. Notice that Mongo-express allows you to interact with the backend which is the MongoDB server (Service)
-![Firefox-mongoexpress](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/images/screenshot-firefox-mongoexpress.png?raw=true)
+![Firefox-mongoexpress](https://github.com/Ahmed-AG/k8s-quick-start-tutorial/blob/main/images/screenshot-firefox-mongoexpress.png)
 User `admin` and `pass` to login to Mongo-Express.
 Congratulations! Your Application is built!
 
