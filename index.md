@@ -10,6 +10,7 @@ layout: default
 <br>
 For more information reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>
 
+---
 
 ## <a id="read"></a>Posts:
 - [Kubernetes Crash Course](/read/Kubernetes-crash-course.html)
