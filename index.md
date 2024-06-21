@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-## Welcome to Cyberdojo
+<!-- ## Welcome to Cyberdojo
 I'm Ahmed Abugharbia, founder of Cyberdojo. My mission is to help you build robust, business-driven security programs through practical training, expert guidance, and comprehensive cloud security services.
 
-With over 15 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security and DevSecOps. As an instructor for SEC540: Cloud Security and DevSecOps Automation, I focus on strategic planning and hands-on implementation.
+With over 15 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and GenAI. As an instructor for SEC540: Cloud Security and DevSecOps Automation, I focus on strategic planning and hands-on implementation.
 
 At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
 
 Looking forward to helping you achieve your security goals!
 
----
+--- -->
 
 ## <a id="services"></a>Services:
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
