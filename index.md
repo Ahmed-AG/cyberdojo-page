@@ -10,7 +10,7 @@ At Cyberdojo, we offer a range of services designed to enhance your security pos
 
 Looking forward to helping you achieve your security goals!
 
---- -->
+---
 
 ## <a id="services"></a>Services:
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
@@ -21,7 +21,7 @@ Looking forward to helping you achieve your security goals!
 <br><br>
 For more information reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>
 
----
+--- -->
 
 ## <a id="read"></a>Posts:
 - [Kubernetes Crash Course](/read/Kubernetes-crash-course.html)
