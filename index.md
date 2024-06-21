@@ -2,7 +2,7 @@
 layout: default
 ---
 ## Welcome to Cyberdojo
-I'm Ahmed Abugharbia, founder of Cyberdojo. My mission is to help you build robust, business-driven security programs through practical training, expert guidance, and comprehensive cloud security services.
+I'm [Ahmed Abugharbia](https://www.linkedin.com/in/ahmedabugharbia/){:target="_blank"}, founder of Cyberdojo. My mission is to help you build robust, business-driven security programs through practical training, expert guidance, and comprehensive cloud security services.
 
 With over 17 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and GenAI. As a SANS Certified instructor for [SEC540: Cloud Security and DevSecOps Automation](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/){:target="_blank"}, I focus on strategic planning and hands-on implementation of cloud security controls.
 
