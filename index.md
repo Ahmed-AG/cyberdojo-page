@@ -5,7 +5,7 @@ layout: default
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
 - **Secure Cloud Design and Architecture:** Design and deploy robust and secure cloud infrastructures, integrating advanced security practices and DevOps methodologies to streamline development and enhance security from inception to deployment.
 - **DevOps and DevSecOps:** Establish a comprehensive DevOps/DevSecOps framework that automates deployments, testing, and security protocols, ensuring seamless integration and continuous protection throughout the development lifecycle.
-- **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
+<!-- - **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence. -->
 - **GenAI Security Service:** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
 
 ## <a id="read"></a>Posts:
