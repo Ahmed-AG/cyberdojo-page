@@ -12,7 +12,7 @@ Looking forward to helping you achieve your security goals! -->
 
 ---
 
-## <a id="services"></a>How I can help:
+## <a id="services"></a>How can I help?
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
 - **Secure Cloud Design and Architecture:** Design and deploy robust and secure cloud infrastructures, integrating advanced security practices and DevOps methodologies to streamline development and enhance security from inception to deployment.
 - **DevOps and DevSecOps:** Establish a comprehensive DevOps/DevSecOps framework that automates deployments, testing, and security protocols, ensuring seamless integration and continuous protection throughout the development lifecycle.
