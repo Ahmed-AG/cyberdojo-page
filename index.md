@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<!-- ## Welcome to Cyberdojo
+## Welcome to Cyberdojo
 I'm Ahmed Abugharbia, founder of Cyberdojo. My mission is to help you build robust, business-driven security programs through practical training, expert guidance, and comprehensive cloud security services.
 
-With over 15 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and GenAI. As an instructor for SEC540: Cloud Security and DevSecOps Automation, I focus on strategic planning and hands-on implementation.
+With over 17 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and GenAI. As a SANS Certified instructor for SEC540: Cloud Security and DevSecOps Automation, I focus on strategic planning and hands-on implementation of cloud security controls.
 
-At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
+<!-- At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
 
-Looking forward to helping you achieve your security goals!
+Looking forward to helping you achieve your security goals! -->
 
 ---
 
-## <a id="services"></a>Services:
+## <a id="services"></a>How I can help:
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
 - **Secure Cloud Design and Architecture:** Design and deploy robust and secure cloud infrastructures, integrating advanced security practices and DevOps methodologies to streamline development and enhance security from inception to deployment.
 - **DevOps and DevSecOps:** Establish a comprehensive DevOps/DevSecOps framework that automates deployments, testing, and security protocols, ensuring seamless integration and continuous protection throughout the development lifecycle.
@@ -21,7 +21,7 @@ Looking forward to helping you achieve your security goals!
 <br><br>
 For more information reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>
 
---- -->
+--- 
 
 ## <a id="read"></a>Posts:
 - [Kubernetes Crash Course](/read/Kubernetes-crash-course.html)
