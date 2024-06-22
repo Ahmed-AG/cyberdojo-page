@@ -5,11 +5,14 @@ layout: default
 My name is [Ahmed Abugharbia](https://www.linkedin.com/in/ahmedabugharbia/){:target="_blank"}, founder of Cyberdojo. Our mission is to help you build robust, business-driven security programs through practical training, expert guidance, and comprehensive cloud security services.
 
 With over 17 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and GenAI. As a SANS Certified instructor for [SEC540: Cloud Security and DevSecOps Automation](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/){:target="_blank"}, I focus on strategic planning and hands-on implementation of cloud security controls.
-
-<!-- At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
-
 Looking forward to helping you achieve your security goals!
 
+<!-- At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
+-->
+<br><br>
+For information reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a> -->
+Looking forward to helping you achieve your security goals!
+<!-- 
 ---
 
 ## <a id="services"></a>How can I help?
@@ -18,8 +21,6 @@ Looking forward to helping you achieve your security goals!
 - **DevOps and DevSecOps:** Establish a comprehensive DevOps/DevSecOps framework that automates deployments, testing, and security protocols, ensuring seamless integration and continuous protection throughout the development lifecycle.
 - **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
 - **GenAI Security Service:** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
-<br><br>
-For more information reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a> -->
 
 --- 
 
