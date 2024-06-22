@@ -21,19 +21,6 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 - **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
 - **GenAI Security Service:** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
  -->
---- 
-
-## <a id="read"></a>Posts:
-- [Kubernetes Crash Course](/read/Kubernetes-crash-course.html)
-- [SANS Webcast: Deep Dive: Building Security Applications with Generative AI](https://www.sans.org/webcasts/deep-dive-building-security-applications-generative-ai/){:target="_blank"}
-- [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
-- [Running Docker remotely on kali Linux server](/read/run-docker-remotley-on-kali.md)
-- [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications/){:target="_blank"}
-- [Using jq with AWS](/read/jq-for-AWS.md)
-- [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
-- [ACE Podcast: Ahmed Abugharbia: Upskilling your Security Teammates for Cloud and DevSecOps](https://www.sans.org/podcasts/cloud-ace/ahmed-abugharbia-upskilling-your-security-teammates-for-cloud-and-devsecops-10/){:target="_blank"}
-- [بودكاست سكيوريتي بالعربي - مع أحمد أبو غربيه AI & Cybersecurity ](https://open.spotify.com/show/4SEZywCqLqOInZtVy2kqHY){:target="_blank"}
-- [Installing Cloud Deployment Framework (CDF)](/read/cloud-deployment-framework.md)
 
 ---
 
@@ -53,6 +40,20 @@ hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed 
 Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be utilized to interface with security solutions. The project has a user interface that is built using HTML and JavaScript and is hosted on a public S3 bucket. The UI communicates with a backend system that includes an API Gateway and a Lambda function, which is written in Python and has permission to access OpenAI and CloudWatch. When a user makes a request, the API Gateway triggers the Lambda function, which translates the request using OpenAI into a CloudWatch query that searches for relevant information in CloudWatch logs. <a id="cloudwatch-bot-demo"></a>[Use it LIVE here.](/cloudwatch-bot.html){:target="_blank"}
 
 <i class="fab fa-github"></i> [AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
+
+--- 
+
+## <a id="read"></a>Posts:
+- [Kubernetes Crash Course](/read/Kubernetes-crash-course.html)
+- [SANS Webcast: Deep Dive: Building Security Applications with Generative AI](https://www.sans.org/webcasts/deep-dive-building-security-applications-generative-ai/){:target="_blank"}
+- [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
+- [Running Docker remotely on kali Linux server](/read/run-docker-remotley-on-kali.md)
+- [Q&A blog post: Beyond ChatGPT and using OpenAI API Q&A](https://www.sans.org/blog/how-to-build-ai-powered-cybersecurity-applications/){:target="_blank"}
+- [Using jq with AWS](/read/jq-for-AWS.md)
+- [SANS Webcast: Beyond ChatGPT Building Security Applications using OpenAI API](https://www.youtube.com/watch?v=Dcj2bLrgemw){:target="_blank"}
+- [ACE Podcast: Ahmed Abugharbia: Upskilling your Security Teammates for Cloud and DevSecOps](https://www.sans.org/podcasts/cloud-ace/ahmed-abugharbia-upskilling-your-security-teammates-for-cloud-and-devsecops-10/){:target="_blank"}
+- [بودكاست سكيوريتي بالعربي - مع أحمد أبو غربيه AI & Cybersecurity ](https://open.spotify.com/show/4SEZywCqLqOInZtVy2kqHY){:target="_blank"}
+- [Installing Cloud Deployment Framework (CDF)](/read/cloud-deployment-framework.md)
 
 ---
 
