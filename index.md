@@ -9,8 +9,6 @@ Looking forward to helping you achieve your security goals!
 
 <!-- At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
 -->
-
-<br>
 Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
 
 <!-- 
