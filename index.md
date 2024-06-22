@@ -11,8 +11,7 @@ Looking forward to helping you achieve your security goals!
 -->
 
 <br>
-For information reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>
-Looking forward to helping you achieve your security goals!
+Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
 
 <!-- 
 ---
