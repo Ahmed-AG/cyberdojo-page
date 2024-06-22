@@ -37,7 +37,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 
 ---
 
-## <a id="research-projects"></a>Projects:
+## <a id="research-projects"></a>Research Projects:
 <!-- - [hackerBot](/projects/hackerbot.md)
 - [Cloudwatch-bot](/projects/cloudwatch-bot.md) -->
 ### hackerBot
