@@ -43,6 +43,8 @@ Aviata-chatbot is a purposefully designed vulnerable Generative AI (GenAI) appli
 <img src="https://raw.githubusercontent.com/Ahmed-AG/aviata-chatbot/feature/readme/images/aviata-chatbot.png" alt="Aviata-chatbot vulnerable GenAI application" width="800" height="450" />
 </center>
 
+<i class="fab fa-github"></i> [aAviata-chatbot Project](https://github.com/Ahmed-AG//aviata-chatbot){:target="_blank"}
+
 
 ### hackerBot
 hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
