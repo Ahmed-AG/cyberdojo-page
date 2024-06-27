@@ -40,7 +40,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 Aviata-chatbot is a purposefully designed vulnerable Generative AI (GenAI) application created to investigate and analyze potential security issues that could arise in GenAI systems. By intentionally incorporating known vulnerabilities, Aviata-chatbot allows us to study a wide range of security threats, such as data breaches, adversarial attacks, unauthorized access, and the manipulation of AI outputs. This research is crucial for understanding the specific risks associated with GenAI applications and for developing effective strategies to mitigate these risks and enhance the overall security of AI-driven technologies.
 
 <center>
-<img src="[/static/hackerBot.png](https://github.com/Ahmed-AG/aviata-chatbot/blob/feature/readme/images/aviata-chatbot.png?raw=true)" alt="Aviata-chatbot vulnerable GenAI application" width="800" height="450" />
+<img src="https://github.com/Ahmed-AG/aviata-chatbot/blob/feature/readme/images/aviata-chatbot.png" alt="Aviata-chatbot vulnerable GenAI application" width="800" height="450" />
 </center>
 
 
