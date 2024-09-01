@@ -23,11 +23,9 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 ## <a id="research-projects"></a>Research:
 
 ### Why the focus on GenAI?
-#### The Need for Security in GenAI Applications
-Generative AI (GenAI) applications are revolutionizing industries by automating tasks, generating content, and enhancing decision-making processes. However, these advancements come with significant security challenges. GenAI systems are vulnerable to various threats, including data poisoning, adversarial attacks, and misuse of generated content. Ensuring the security of GenAI applications is critical to prevent malicious exploitation, protect sensitive information, and maintain the integrity and trustworthiness of AI-generated outputs.
+- **The Need for Security in GenAI Applications:** Generative AI (GenAI) applications are revolutionizing industries by automating tasks, generating content, and enhancing decision-making processes. However, these advancements come with significant security challenges. GenAI systems are vulnerable to various threats, including data poisoning, adversarial attacks, and misuse of generated content. Ensuring the security of GenAI applications is critical to prevent malicious exploitation, protect sensitive information, and maintain the integrity and trustworthiness of AI-generated outputs.
 
-#### Leveraging GenAI for Enhanced Security
-The rise of GenAI is also transforming how we approach cybersecurity. GenAI tools can enhance threat detection, automate response strategies, and predict potential vulnerabilities with unprecedented accuracy. By integrating GenAI into our security frameworks, we can stay ahead of emerging threats and continuously adapt to the evolving digital landscape.
+- **Leveraging GenAI for Enhanced Security:** The rise of GenAI is also transforming how we approach cybersecurity. GenAI tools can enhance threat detection, automate response strategies, and predict potential vulnerabilities with unprecedented accuracy. By integrating GenAI into our security frameworks, we can stay ahead of emerging threats and continuously adapt to the evolving digital landscape.
 
 ### hackerBot
 hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
