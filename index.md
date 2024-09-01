@@ -32,7 +32,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
       </td>
       <td style="padding: 20px; border: 2px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); text-align: center; vertical-align: middle;">
         <h3 style="margin-bottom: 10px;">GenAI Security</h3>
-        <p>Secure your AI models and data with a robust design and architecture, employing advanced threat detection, strict access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.</p>
+        <p>Secure your GenAI applications and data with a robust design and architecture, employing threat detection, access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.</p>
       </td>
     </tr>
   </table>
