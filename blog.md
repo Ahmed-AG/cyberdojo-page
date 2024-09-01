@@ -2,7 +2,7 @@
 layout: default
 --- 
 
-## <a id="read"></a>Posts:
+## <center><a id="read"></a>POSTS</center>
 - [Kubernetes Crash Course](/read/Kubernetes-crash-course.html)
 - [SANS Webcast: Deep Dive: Building Security Applications with Generative AI](https://www.sans.org/webcasts/deep-dive-building-security-applications-generative-ai/){:target="_blank"}
 - [Transitioning from Traditional Cybersecurity to Cloud Security: Skills You Can't Ignore](/read/transitioning-from-traditional-cybersecurity-to-cloud-security.html)
@@ -15,7 +15,6 @@ layout: default
 - [Installing Cloud Deployment Framework (CDF)](/read/cloud-deployment-framework.md)
 
 ---
-## <center><a id="contact"></a>Contact </center>
 <center>
 <a href="mailto:info@cyberdojo.cloud" target="_blank"><i class="fas fa-envelope"></i></a> | 
 <A href="https://www.linkedin.com/in/ahmadabugharbieh/" target="_blank"> <i class="fab fa-linkedin"></i></A> | 

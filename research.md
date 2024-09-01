@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-<center>
-## <a id="research-projects"></a>RESEARCH
-</center>
+
+## <center><a id="research-projects"></a>RESEARCH</center>
 
 ### Why the focus on GenAI?
 - **The Need for Security in GenAI Applications:** Generative AI (GenAI) applications are revolutionizing industries by automating tasks, generating content, and enhancing decision-making processes. However, these advancements come with significant security challenges. GenAI systems are vulnerable to various threats, including data poisoning, adversarial attacks, and misuse of generated content. Ensuring the security of GenAI applications is critical to prevent malicious exploitation, protect sensitive information, and maintain the integrity and trustworthiness of AI-generated outputs.
@@ -35,7 +34,6 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 <i class="fab fa-github"></i> [AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
 
 ---
-## <center><a id="contact"></a>Contact </center>
 <center>
 <a href="mailto:info@cyberdojo.cloud" target="_blank"><i class="fas fa-envelope"></i></a> | 
 <A href="https://www.linkedin.com/in/ahmadabugharbieh/" target="_blank"> <i class="fab fa-linkedin"></i></A> | 
