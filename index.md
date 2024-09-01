@@ -10,8 +10,8 @@ Looking forward to helping you achieve your security goals!
 At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
 
 Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
--->
 ---
+-->
 
 ## <a id="services"></a>Services
 - **Strategic plan:** Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.
@@ -20,19 +20,15 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 - **GenAI Security :** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
 
 ---
+## <a id="research-projects"></a>Research Projects:
 
-## Why the focus on GenAI?
-### The Need for Security in GenAI Applications
+### Why the focus on GenAI?
+#### The Need for Security in GenAI Applications
 Generative AI (GenAI) applications are revolutionizing industries by automating tasks, generating content, and enhancing decision-making processes. However, these advancements come with significant security challenges. GenAI systems are vulnerable to various threats, including data poisoning, adversarial attacks, and misuse of generated content. Ensuring the security of GenAI applications is critical to prevent malicious exploitation, protect sensitive information, and maintain the integrity and trustworthiness of AI-generated outputs.
 
-### Leveraging GenAI for Enhanced Security
+#### Leveraging GenAI for Enhanced Security
 The rise of GenAI is also transforming how we approach cybersecurity. GenAI tools can enhance threat detection, automate response strategies, and predict potential vulnerabilities with unprecedented accuracy. By integrating GenAI into our security frameworks, we can stay ahead of emerging threats and continuously adapt to the evolving digital landscape.
 
----
-
-## <a id="research-projects"></a>Research Projects:
-<!-- - [hackerBot](/projects/hackerbot.md)
-- [Cloudwatch-bot](/projects/cloudwatch-bot.md) -->
 ### Aviata-chatbot
 
 [Aviata-chatbot](https://github.com/Ahmed-AG//aviata-chatbot){:target="_blank"} is a purposefully designed vulnerable Generative AI (GenAI) application created to investigate and analyze potential security issues that could arise in GenAI systems. By intentionally incorporating known vulnerabilities, Aviata-chatbot allows us to study a wide range of security threats, such as data breaches, adversarial attacks, unauthorized access, and the manipulation of AI outputs. This research is crucial for understanding the specific risks associated with GenAI applications and for developing effective strategies to mitigate these risks and enhance the overall security of AI-driven technologies.
