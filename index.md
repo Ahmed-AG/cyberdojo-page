@@ -12,7 +12,7 @@ At Cyberdojo, we offer a range of services designed to enhance your security pos
 Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
 ---
 -->
-## <center> <a id="services"></a>Services </center>
+## <center> <a id="services"></a>SERVICES </center>
 <div style="width: 80%; margin: 0 auto; padding: 20px;">
   <table style="width: 100%; border-spacing: 20px;">
     <tr>
@@ -39,7 +39,6 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 </div>
 
 ---
-
 ## <a id="research-projects"></a>Research:
 
 ### Why the focus on GenAI?
