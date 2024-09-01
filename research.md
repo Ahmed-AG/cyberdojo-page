@@ -34,8 +34,3 @@ Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be uti
 <i class="fab fa-github"></i> [AWS CloudWatch-bot Sample Code](https://github.com/Ahmed-AG/Cloudwatch-bot){:target="_blank"}
 
 ---
-<center>
-<a href="mailto:info@cyberdojo.cloud" target="_blank"><i class="fas fa-envelope"></i></a> | 
-<A href="https://www.linkedin.com/in/ahmedabugharbia/" target="_blank"> <i class="fab fa-linkedin"></i></A> | 
-<A href="https://twitter.com/aagsec" target="_blank"> <i class="fab fa-twitter"></i></A>
-</center>
