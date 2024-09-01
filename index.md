@@ -13,7 +13,6 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 ---
 -->
 ## <center> <a id="services"></a>Services </center>
----
 <div style="width: 80%; margin: 0 auto; padding: 20px;">
   <table style="width: 100%; border-spacing: 20px;">
     <tr>
