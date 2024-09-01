@@ -40,12 +40,6 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 
 ---
 
-- **Strategic plan:** Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.
-- **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
-- **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
-- **GenAI Security :** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
-
----
 ## <a id="research-projects"></a>Research:
 
 ### Why the focus on GenAI?
