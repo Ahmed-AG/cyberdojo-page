@@ -13,7 +13,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 -->
 ---
 
-## <a id="services"></a>How can I help?
+## <a id="services"></a>Services
 - **Strategic plan:** Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
 - **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
