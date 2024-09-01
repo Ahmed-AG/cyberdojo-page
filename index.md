@@ -19,7 +19,7 @@ The rise of GenAI is also transforming how we approach cybersecurity. GenAI tool
 -->
 Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
 
-<!-- 
+
 ---
 
 ## <a id="services"></a>How can I help?
@@ -28,7 +28,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 - **DevOps and DevSecOps:** Establish a comprehensive DevOps/DevSecOps framework that automates deployments, testing, and security protocols, ensuring seamless integration and continuous protection throughout the development lifecycle.
 - **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
 - **GenAI Security Service:** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
- -->
+
 
 ---
 
