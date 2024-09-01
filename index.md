@@ -20,7 +20,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 - **GenAI Security :** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
 
 ---
-## <a id="research-projects"></a>Research Projects:
+## <a id="research-projects"></a>Research:
 
 ### Why the focus on GenAI?
 #### The Need for Security in GenAI Applications
@@ -28,6 +28,15 @@ Generative AI (GenAI) applications are revolutionizing industries by automating 
 
 #### Leveraging GenAI for Enhanced Security
 The rise of GenAI is also transforming how we approach cybersecurity. GenAI tools can enhance threat detection, automate response strategies, and predict potential vulnerabilities with unprecedented accuracy. By integrating GenAI into our security frameworks, we can stay ahead of emerging threats and continuously adapt to the evolving digital landscape.
+
+### hackerBot
+hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
+
+<center>
+<img src="/static/hackerBot.png" alt="HackerBot searching through logs and answering questions" width="800" height="450" />
+</center>
+
+<i class="fab fa-github"></i> [hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
 
 ### Aviata-chatbot
 
@@ -38,16 +47,6 @@ The rise of GenAI is also transforming how we approach cybersecurity. GenAI tool
 </center>
 
 <i class="fab fa-github"></i> [Aviata-chatbot Project](https://github.com/Ahmed-AG//aviata-chatbot){:target="_blank"}
-
-
-### hackerBot
-hackerBot is an AI-driven cybersecurity tool based on OpenAI's models, designed to perform various cybersecurity tasks. It can be run in a Docker container or installed locally. The tool is equipped with skills such as AWS CLI, port scanning using nmap, Netcat, and reading AWS logs using LangChain Agent. It allows users to execute custom commands with or without AI assistance, offering flexibility and control.
-
-<center>
-<img src="/static/hackerBot.png" alt="HackerBot searching through logs and answering questions" width="800" height="450" />
-</center>
-
-<i class="fab fa-github"></i> [hackerBot Project](https://github.com/Ahmed-AG/hackerbot){:target="_blank"}
 
 ### Cloudwatch-bot
 Cloudwatch-bot is a proof-of-concept project that demonstrates how AI can be utilized to interface with security solutions. The project has a user interface that is built using HTML and JavaScript and is hosted on a public S3 bucket. The UI communicates with a backend system that includes an API Gateway and a Lambda function, which is written in Python and has permission to access OpenAI and CloudWatch. When a user makes a request, the API Gateway triggers the Lambda function, which translates the request using OpenAI into a CloudWatch query that searches for relevant information in CloudWatch logs. <a id="cloudwatch-bot-demo"></a>[Use it LIVE here.](/cloudwatch-bot.html){:target="_blank"}
