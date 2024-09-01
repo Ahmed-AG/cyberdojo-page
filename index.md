@@ -15,27 +15,30 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 
 ## <a id="services"></a>Services
 
-<div style="width: 80%; margin: 0 auto; padding: 20px; display: flex; flex-wrap: wrap; gap: 20px;">
-
-  <div style="flex: 1 1 calc(50% - 20px); padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-    <h3 style="margin-bottom: 10px;">Strategic Plan</h3>
-    <p>Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.</p>
-  </div>
-
-  <div style="flex: 1 1 calc(50% - 20px); padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-    <h3 style="margin-bottom: 10px;">Cloud Security Assessment</h3>
-    <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.</p>
-  </div>
-
-  <div style="flex: 1 1 calc(50% - 20px); padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-    <h3 style="margin-bottom: 10px;">Managed Services</h3>
-    <p>Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.</p>
-  </div>
-
-  <div style="flex: 1 1 calc(50% - 20px); padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
-    <h3 style="margin-bottom: 10px;">GenAI Security</h3>
-    <p>Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.</p>
-  </div>
+<div style="width: 80%; margin: 0 auto; padding: 20px;">
+  <table style="width: 100%; border-spacing: 20px;">
+    <tr>
+      <td style="padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); vertical-align: top;">
+        <h3 style="margin-bottom: 10px;">Strategic Plan</h3>
+        <p>Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.</p>
+      </td>
+      <td style="padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); vertical-align: top;">
+        <h3 style="margin-bottom: 10px;">Cloud Security Assessment</h3>
+        <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); vertical-align: top;">
+        <h3 style="margin-bottom: 10px;">Managed Services</h3>
+        <p>Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.</p>
+      </td>
+      <td style="padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); vertical-align: top;">
+        <h3 style="margin-bottom: 10px;">GenAI Security</h3>
+        <p>Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 </div>
 
