@@ -1,12 +1,25 @@
 ---
 layout: default
 ---
-## Welcome to Cyberdojo
+<!-- ## Welcome to Cyberdojo
 My name is [Ahmed Abugharbia](https://www.linkedin.com/in/ahmedabugharbia/){:target="_blank"}, founder of Cyberdojo. my mission is to help you build robust, business-driven security programs through practical training and expert guidance.
-<!-- and comprehensive cloud security services. -->
 
 With over 17 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and finally, GenAI. As a SANS Certified instructor for [SEC540: Cloud Security and DevSecOps Automation](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/){:target="_blank"}, I focus on strategic planning and hands-on implementation of security controls.
 Looking forward to helping you achieve your security goals!
+
+At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
+
+Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
+-->
+---
+
+## <a id="services"></a>How can I help?
+- **Strategic plan:** Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.
+- **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
+- **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
+- **GenAI Security :** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
+
+---
 
 ## Why the focus on GenAI?
 ### The Need for Security in GenAI Applications
@@ -14,21 +27,6 @@ Generative AI (GenAI) applications are revolutionizing industries by automating 
 
 ### Leveraging GenAI for Enhanced Security
 The rise of GenAI is also transforming how we approach cybersecurity. GenAI tools can enhance threat detection, automate response strategies, and predict potential vulnerabilities with unprecedented accuracy. By integrating GenAI into our security frameworks, we can stay ahead of emerging threats and continuously adapt to the evolving digital landscape.
-
-<!-- At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
--->
-Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
-
-
----
-
-## <a id="services"></a>How can I help?
-- **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
-- **Secure Cloud Design and Architecture:** Design and deploy robust and secure cloud infrastructures, integrating advanced security practices and DevOps methodologies to streamline development and enhance security from inception to deployment.
-- **DevOps and DevSecOps:** Establish a comprehensive DevOps/DevSecOps framework that automates deployments, testing, and security protocols, ensuring seamless integration and continuous protection throughout the development lifecycle.
-- **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
-- **GenAI Security Service:** Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.
-
 
 ---
 
