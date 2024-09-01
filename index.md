@@ -14,6 +14,31 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 -->
 
 ## <a id="services"></a>Services
+
+<div style="width: 80%; margin: 0 auto; padding: 20px;">
+  <h2 style="text-align: center;">Services</h2>
+
+  <div style="margin-bottom: 20px;">
+    <h3 style="margin-bottom: 5px;">Strategic Plan</h3>
+    <p>Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.</p>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <h3 style="margin-bottom: 5px;">Cloud Security Assessment</h3>
+    <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.</p>
+  </div>
+
+  <div style="margin-bottom: 20px;">
+    <h3 style="margin-bottom: 5px;">Managed Services</h3>
+    <p>Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.</p>
+  </div>
+
+  <div>
+    <h3 style="margin-bottom: 5px;">GenAI Security</h3>
+    <p>Secure your AI models and data with a robust design and architecture, employing advanced threat detection, stringent access controls, and continuous monitoring to mitigate vulnerabilities and safeguard against threats.</p>
+  </div>
+</div>
+
 - **Strategic plan:** Ensures your organization’s seamless and secure transition to the cloud, aligning with your business goals.
 - **Cloud Security Assessment:** Conduct a thorough evaluation of your cloud infrastructure's security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.
 - **Managed Services:** Proactively manage and optimize your cloud infrastructure with ongoing monitoring, maintenance, and expert support, ensuring continuous security and operational excellence.
