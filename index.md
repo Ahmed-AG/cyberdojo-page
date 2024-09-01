@@ -24,7 +24,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
       </td>
       <td style="padding: 20px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); text-align: center; vertical-align: middle;">
         <h3 style="margin-bottom: 10px;">Cloud Security Assessment</h3>
-        <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities, misconfigurations, and potential risks, while providing a detailed remediation plan to fortify your defenses.</p>
+        <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities, misconfigurations, and other potential risks.</p>
       </td>
     </tr>
     <tr>
