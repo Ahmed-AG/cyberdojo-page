@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-## <a id="research-projects"></a>Research:
+<center>
+## <a id="research-projects"></a>RESEARCH
+</center>
 
 ### Why the focus on GenAI?
 - **The Need for Security in GenAI Applications:** Generative AI (GenAI) applications are revolutionizing industries by automating tasks, generating content, and enhancing decision-making processes. However, these advancements come with significant security challenges. GenAI systems are vulnerable to various threats, including data poisoning, adversarial attacks, and misuse of generated content. Ensuring the security of GenAI applications is critical to prevent malicious exploitation, protect sensitive information, and maintain the integrity and trustworthiness of AI-generated outputs.
