@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #101820;
+            color: #ffffff;
+            padding: 20px;
+        }
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .hero {
+            background: url('your-hero-image.jpg') no-repeat center center/cover;
+            color: #ffffff;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: #ffffff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px 20px;
+            justify-content: center;
+            background-color: #f8f8f8;
+        }
+        .feature-item {
+            flex: 1 1 calc(33% - 40px);
+            background: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 8px;
+        }
+        .feature-item h3 {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        .feature-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+        footer {
+            background-color: #101820;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Your Logo</div>
+        <div>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#login">Login</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Build Secure Applications with Confidence</h1>
+    <p>Your trusted partner in delivering secure software solutions</p>
+    <a href="#features" class="button">Learn More</a>
+</section>
+
+<section class="features" id="features">
+    <div class="feature-item">
+        <h3>Feature One</h3>
+        <p>Provide high-level security for your software and cloud services.</p>
+    </div>
+    <div class="feature-item">
+        <h3>Feature Two</h3>
+        <p>Integrated tools to streamline development and deployment processes.</p>
+    </div>
+    <div class="feature-item">
+        <h3>Feature Three</h3>
+        <p>Continuous monitoring and protection to ensure compliance and safety.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
