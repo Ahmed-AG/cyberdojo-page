@@ -12,6 +12,41 @@ At Cyberdojo, we offer a range of services designed to enhance your security pos
 Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
 ---
 -->
+
+<section class="hero">
+    <h1>Cyberdojo</h1>
+    <p>We equip you for a successful cloud security journey.</p>
+    <div class="-">
+        <a href="#" class="button">Talk to an Expert →</a>
+    </div>
+</section>
+
+<!-- services Section -->
+<section class="services">
+    <!-- <h2>The Opportunities</h2> -->
+    <p>Embrace cutting-edge technologies to unlock endless possibilities and drive your business forward.</p>
+    <div class="service-cards">
+        <div class="service-card">
+            <h3>Innovate With GenAI</h3>
+            <p>Leverage Generative AI to drive business growth with secure, reliable, and scalable GenAI applications.
+            </p>
+            <!-- <a href="#">Learn More →</a> -->
+        </div>
+        <div class="service-card">
+            <h3>Secure Cloud</h3>
+            <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities and mitigating potential risks.</p>
+            <!-- <a href="#">Learn More →</a> -->
+        </div>
+        <div class="service-card">
+            <h3>Focus On Your Buiness</h3>
+            <p>Focus on growing your business with cloud-managed services that handle the rest.</p>
+            <!-- <a href="#">Learn More →</a> -->
+        </div>
+    </div>
+</section>
+
+
+
 ## <center> <a id="services"></a>SERVICES </center>
 <div style="width: 80%; margin: 0 auto; padding: 20px;">
   <table style="width: 100%; border-spacing: 20px;">
