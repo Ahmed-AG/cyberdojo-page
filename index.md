@@ -11,9 +11,9 @@ layout: default
 <h1>Cyberdojo</h1>
 ---
 <section class="services">
-    <p>We equip you for a successful and secure cloud journey.</p>
     <!-- <h2 id="services">Services</h2> -->
-    <p>Embrace cutting-edge technologies to drive your business forward.</p>
+    <p>We equip you for a successful and secure cloud journey.
+    <br>Embrace cutting-edge technologies to drive your business forward.</p>
     <div class="service-cards">
         <div class="service-card">
             <h3>Innovate With GenAI</h3>
