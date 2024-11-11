@@ -16,12 +16,6 @@ layout: default
     <br>Embrace cutting-edge technologies to drive your business forward.</p>
     <div class="service-cards">
         <div class="service-card">
-            <h3>Innovate With GenAI</h3>
-            <p>Leverage Generative AI to drive business growth with secure, reliable, and scalable GenAI applications.
-            </p>
-            <!-- <a href="#">Learn More →</a> -->
-        </div>
-        <div class="service-card">
             <h3>Secure Cloud</h3>
             <p>Conduct a thorough evaluation of your cloud infrastructure’s security posture, identifying vulnerabilities and mitigating potential risks.</p>
             <!-- <a href="#">Learn More →</a> -->
@@ -29,6 +23,12 @@ layout: default
         <div class="service-card">
             <h3>Focus On Your Business</h3>
             <p>Focus on growing your business with cloud-managed services that handle the rest.</p>
+            <!-- <a href="#">Learn More →</a> -->
+        </div>
+        <div class="service-card">
+            <h3>Innovate With GenAI</h3>
+            <p>Leverage Generative AI to drive business growth with secure, reliable, and scalable GenAI applications.
+            </p>
             <!-- <a href="#">Learn More →</a> -->
         </div>
     </div>
