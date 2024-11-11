@@ -9,7 +9,7 @@ layout: default
     </div>
 </section> -->
 <h1>Cyberdojo</h1>
----
+<!-- --- -->
 <section class="services">
     <!-- <h2 id="services">Services</h2> -->
     <p>We equip you for a successful and secure cloud journey.
