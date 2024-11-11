@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="hero">
     <h1>Cyberdojo</h1>
-    <p>We equip you for a successful cloud security journey.</p>
+    <p>We equip you for a successful and secure cloud journey.</p>
     <div class="-">
         <a href="#" class="button">Talk to an Expert →</a>
     </div>
