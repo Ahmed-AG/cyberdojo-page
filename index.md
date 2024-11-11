@@ -1,17 +1,6 @@
 ---
 layout: default
 ---
-<!-- ## Welcome to Cyberdojo
-My name is [Ahmed Abugharbia](https://www.linkedin.com/in/ahmedabugharbia/){:target="_blank"}, founder of Cyberdojo. my mission is to help you build robust, business-driven security programs through practical training and expert guidance.
-
-With over 17 years in the cybersecurity field, I've worked with leading companies to solve complex security challenges. My journey started with securing networks and applications, eventually leading to cloud security, DevSecOps and finally, GenAI. As a SANS Certified instructor for [SEC540: Cloud Security and DevSecOps Automation](https://www.sans.org/cyber-security-courses/cloud-security-devsecops-automation/){:target="_blank"}, I focus on strategic planning and hands-on implementation of security controls.
-Looking forward to helping you achieve your security goals!
-
-At Cyberdojo, we offer a range of services designed to enhance your security posture. From expert training and consulting to specialized cloud security solutions, my goal is to equip you with the knowledge and tools needed for immediate, measurable improvements. I hold several industry certifications, including GIAC GSEC, GPEN, AWS Certified DevOps Engineer Professional, and AWS Certified Solutions Architect Associate.
-
-Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdojo.cloud</a>. Looking forward to helping you achieve your security goals!
----
--->
 
 <section class="hero">
     <h1>Cyberdojo</h1>
@@ -23,7 +12,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 
 <!-- services Section -->
 <section class="services">
-    <!-- <h2>The Opportunities</h2> -->
+    <h2 id="services">SERVICES</h2>
     <p>Embrace cutting-edge technologies to unlock endless possibilities and drive your business forward.</p>
     <div class="service-cards">
         <div class="service-card">
@@ -47,7 +36,7 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
 
 
 
-## <center> <a id="services"></a>SERVICES </center>
+<!-- ## <center> <a id="services"></a>SERVICES </center>
 <div style="width: 80%; margin: 0 auto; padding: 20px;">
   <table style="width: 100%; border-spacing: 20px;">
     <tr>
@@ -71,6 +60,6 @@ Reach out on <a href="mailto:info@cyberdojo.cloud" target="_blank">info@cyberdoj
       </td>
     </tr>
   </table>
-</div>
+</div> -->
 
 ---
