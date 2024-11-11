@@ -8,9 +8,9 @@ layout: default
         <a href="#contact" class="button">Talk to an Expert →</a>
     </div>
 </section> -->
-
+<h1>Cyberdojo</h1>
+--
 <section class="services">
-    <h1>Cyberdojo</h1>
     <p>We equip you for a successful and secure cloud journey.</p>
     <!-- <h2 id="services">Services</h2> -->
     <p>Embrace cutting-edge technologies to drive your business forward.</p>
