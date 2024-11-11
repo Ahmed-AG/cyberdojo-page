@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <section class="hero">
     <h1>Cyberdojo</h1>
     <p>We equip you for a successful cloud security journey.</p>
@@ -10,7 +9,6 @@ layout: default
     </div>
 </section>
 
-<!-- services Section -->
 <section class="services">
     <h2 id="services">Services</h2>
     <p>Embrace cutting-edge technologies to unlock endless possibilities and drive your business forward.</p>
