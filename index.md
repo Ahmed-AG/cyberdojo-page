@@ -12,7 +12,7 @@ layout: default
 
 <!-- services Section -->
 <section class="services">
-    <h2 id="services">SERVICES</h2>
+    <h2 id="services">Services</h2>
     <p>Embrace cutting-edge technologies to unlock endless possibilities and drive your business forward.</p>
     <div class="service-cards">
         <div class="service-card">
