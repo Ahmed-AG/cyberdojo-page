@@ -5,7 +5,7 @@ layout: default
     <h1>Cyberdojo</h1>
     <p>We equip you for a successful and secure cloud journey.</p>
     <div class="-">
-        <a href="#" class="button">Talk to an Expert →</a>
+        <a href="#contact" class="button">Talk to an Expert →</a>
     </div>
 </section>
 
