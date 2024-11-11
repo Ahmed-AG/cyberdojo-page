@@ -27,7 +27,7 @@ layout: default
             <!-- <a href="#">Learn More →</a> -->
         </div>
         <div class="service-card">
-            <h3>Focus On Your Buiness</h3>
+            <h3>Focus On Your Business</h3>
             <p>Focus on growing your business with cloud-managed services that handle the rest.</p>
             <!-- <a href="#">Learn More →</a> -->
         </div>
