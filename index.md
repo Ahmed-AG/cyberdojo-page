@@ -12,7 +12,7 @@ layout: default
 <section class="services">
     <h1>Cyberdojo</h1>
     <p>We equip you for a successful and secure cloud journey.</p>
-    <h2 id="services">Services</h2>
+    <!-- <h2 id="services">Services</h2> -->
     <p>Embrace cutting-edge technologies to unlock endless possibilities and drive your business forward.</p>
     <div class="service-cards">
         <div class="service-card">
